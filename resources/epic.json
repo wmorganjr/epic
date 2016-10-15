@@ -1,0 +1,2840 @@
+{
+  "PRM": {
+    "name": "Promotional",
+    "code": "PRM",
+    "cards": [
+      {
+        "name": "Aftershock",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 5 damage to a target.\n{wild} → Recall\nWhen this card leaves your discard pile → Deal 2 damage each opponent.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Cleansing Light",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\nYou may banish all token champions.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Dark Prince",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 7,
+        "text": "Airborne — Blitz\n\n{expend}: Put a demon token into play.\n",
+        "Subtype": "DEVIL",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Elder Greatwurm",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 30,
+        "toughness": 30,
+        "text": "This card can't gain powers or abilities.\n\n(For example, it can't gain blitz or breakthrough.)\n",
+        "Subtype": "WURM",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "Season 1 Promo"
+      },
+      {
+        "name": "Forbidden Research",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\nBreak a champion you control: Recall",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Hill Giant",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 8,
+        "text": "Small for a giant . I said he was small for a giant .\n",
+        "Subtype": "GIANT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Hunting Pterosaur",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 3,
+        "text": "Ambush — Airborne\n\nTribute → You may break target champion with 2 {defense} or less.\n",
+        "Subtype": "DINOSAUR",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Inspiration",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Banish two cards from your discard pile. If they are both sage, draw two cards. Otherwise, draw a card.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Kalnor's Blessing",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Target champion gains unbreakable and untargetable this turn.\nRecycle\n— OR —\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Knight of the Dawn",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 3,
+        "text": "Blitz\n\nTribute → You may banish target evil token champion.\n",
+        "Subtype": "HUMAN KNIGHT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Necromancer Apprentice",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 1,
+        "text": "Blitz\n\n{expend}: Banish target card from any discard pile. If that card is a champion, put a zombie token into play.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "New Dawn",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, banish all champions, then, starting with you, each player may put a champion from their hand into play.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Ritual Sacrifice",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nBreak target champion. The player whose turn it is gains health equal to its {defense}.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Scrap Golem",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 6,
+        "text": "If this card entered play from your hand, it has Loyalty 2 → Blitz.\n\n{expend}, Banish a card from your discard pile: Put a token champion into play that is a copy of this card.\n",
+        "Subtype": "CONSTRUCT",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Daniel Warren",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Searing Blast",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 7 damage to a target.\n\nAny player damaged by this card cannot gain health this turn.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Spite",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Lose any amount of health and deal twice that much damage to target champion.\n— OR —\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Teleport",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Remove target champion from play, then return it to play (as a new champion) under its owner's control, either expended or prepared with blitz.\n\nDraw a card.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Season 1 Promo"
+      },
+      {
+        "name": "Time Master",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 1,
+        "text": "Ambush\n\n{expend}: Draw a card.\n\n{expend}: Gain {1}.\n",
+        "Subtype": "HUMAN WIZARD",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Warrior Angel",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 9,
+        "text": "Airborne — Blitz\n\nWhen this card attacks → You may banish target evil token champion.\n",
+        "Subtype": "ANGEL",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "La Capitana",
+        "Set Name": "unknown"
+      },
+      {
+        "name": "Owl Familiar",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 1,
+        "text": "Airborne\n\nTribute → You may return target {1} event card from your discard pile to your hand.\n",
+        "Subtype": "BIRD",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "unknown"
+      }
+    ]
+  },
+  "TYR": {
+    "name": "Tyrants",
+    "code": "TYR",
+    "cards": [
+      {
+        "name": "Paros, Rebel Leader",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 3,
+        "toughness": 4,
+        "text": "Tribute and/or {good} → Put a human token into play.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Ina Wong",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Quell",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Banish all {0} champions. Draw a card.\n\n- OR -\n\nIf it is your turn, banish all {1} champions.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Ina Wong",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Rabble Rouser",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 5,
+        "text": "Blitz\n\n{expend}: Put a human token into play, then double the number of your human tokens.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Raxxa, Demon Tyrant",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 6,
+        "text": "Loyalty 2 → Deal 2 damage to each opposing champion.  Tribute → Put two demon tokens into play. \n Your demon tokens have +2 {offense} and +2 {defense}.\n",
+        "Subtype": "DEMON TYRANT",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Raxxa's Curse",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put a demon token into play, then break target {0} champion.\n\n{1}: Draw two cards.\n",
+        "Subtype": "DEMON TYRANT",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Bramasta Aji",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Raxxa's Displeasure",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\n- OR -\n\nIf it is your turn, break\nall non-demon champions.\n",
+        "Subtype": "DEMON TYRANT",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Bramasta Aji",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Reap or Sow",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put four zombie tokens into play.\n\n- OR -\n\nIf it is your turn, break all champions.\n",
+        "Subtype": "ZOMBIE",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Reaper",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 9,
+        "text": "Tribute and/or {evil} → You may break target champion. If you do, its controller puts a demon token into play.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Revolt",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put a human token into play.\nIt has blitz this turn.\nYour good champions get +2 {offense} this turn.\n\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Dylan Safford",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Royal Escort",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 9,
+        "text": "Ambush  Tribute and/or {good} → Gain 3 health. \n Your champions not named Royal Escort have untargetable.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Gialer Liew",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Second Wind",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Gain 5 health.  Recycle \n \"Pledge your sword to Angeline and she will grant you strength.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Shadow Imp",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 3,
+        "text": "Ambush\nBlitz\nUnblockable  {sage} → You may return this card to your hand.\n",
+        "Subtype": "IMP",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Dylan Safford",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Smash and Burn",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Target champion gets +5 {offense} and +5 {defense} this turn. Draw two cards.\n{wild} → You may banish this card from your discard pile. If you do, deal 6 damage to target champion.",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Spawning Demon",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 4,
+        "text": "{evil} → You may pay 1 health. If you do, put a demon token into play.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Temporal Enforcer",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 4,
+        "text": "Ambush\nUnblock able  Loyalty 2 → You may return target champion to its owner's hand. \n {sage} → You may return target {0} champion to its owner's hand.\n",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Gialer Liew",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Temporal Shift",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Return target champion to its owner's hand. That player banishes a card from their hand.  Draw a card. \n Some doors should not be opened.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "The Gudgeon",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 1,
+        "text": "Unblockable  Tribute → Draw two cards. \n You are untargetable.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Ina Wong",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Urgent Messengers",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\nPut two human tokens into play.  \"Good news never comes this fast.\" - Markus, Watch Captain\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Gialer Liew",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Vanishing",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "If it is your turn, return target champion to its owner's hand.\n\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Wolf's Bite",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put a wolf token into play.  Deal 2 damage to target champion. \n Recycle\n",
+        "Subtype": "WOLF",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Dylan Safford",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Zealous Necromancer",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 3,
+        "toughness": 4,
+        "text": "Ambush \nTribute → Draw a card.\nWhen another non-zombie champion is broken {a} If this card is still in play, put a zombie token into play.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Bramasta Aji",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Ankylosaurus",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 7,
+        "text": "Tribute → You may pay {1}. If you do, draw a card.\n",
+        "Subtype": "DINOSAUR",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Arcane Research",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "For each card banished this way, reveal a card from the top of your deck. Put one of them into your hand and banish the rest.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Grant Griffin",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Battle Cry",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Your champions gain breakthrough, +3 {offense} and +3 {defense} this turn.\n\nIf it is an opponent's turn, draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Blind Faith",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Each opposing champion loses its powers and abilities this turn. (For example, they would lose airborne.)  Recycle\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Brachiosaurus",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 12,
+        "text": "Breakthrough\n\nTribute → Gain {1}. This may only be used to play wild cards and powers.\n",
+        "Subtype": "DINOSAUR",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Dark Offering",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\n- OR -\n\nBreak target {1} champion you control.\nIf you do, break up to two target champions.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Michael J Williams",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Draka, Dragon Tyrant",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 9,
+        "text": "Airborne  Loyalty 2 → Blitz \n When this card attacks → Deal 3 damage to each of the defending player's champions.\n",
+        "Subtype": "DRAGON TYRANT",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Apsara",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Draka's Enforcer",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 7,
+        "text": "Ambush\nAirborne  Loyalty 2 → Draw a card. \n Draka does not negotiate.\n",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Apsara",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Draka's Fire",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 5 damage to each champion and player.\n\nIf it is your turn, deal 5 damage to each opposing champion and draw a card.\n",
+        "Subtype": "DRAGON TYRANT",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Apsara",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Elara, the Lycomancer",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 5,
+        "text": "Loyalty 2 → Blitz\nTribute → Put a wolf token into play.\n{expend}: Transform target champion into a wolf token. (Put it on the bottom of its owner's deck. Its controller puts a wolf token into play.)\n",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Bramasta Aji",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Feeding Frenzy",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "If it is your turn,\nbreak target damaged champion.\n\n- OR -\n\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "L.Sean",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Fire Spirit",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 11,
+        "toughness": 9,
+        "text": "Tribute → Draw a card.  {wild} → Deal 4 damage to target champion. \n \"Well done.\" - Shahara, fire shaman\n",
+        "Subtype": "SPIRIT",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Ina Wong",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Forced Exile",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\nBanish target champion.\nThe player whose turn it is puts two human tokens into play.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Bramasta Aji",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Fumble",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Target champion gets -10 {offense} this turn.\nRecycle\n\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Great Horned Lizard",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 8,
+        "text": "Ambush\nBlitz\nBreakthrough  Tribute → Your dinosaur champions get +3 {offense} and +3 {defense} this turn.\n",
+        "Subtype": "DINOSAUR",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Michael J Williams",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Hands from Below",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 4 damage to each attacking champion without airborne.\n\nPut two zombie tokens into play expended.\n",
+        "Subtype": "ZOMBIE",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Heinous Feast",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Gain 1 health for each champion card in target player's discard pile. Banish that discard pile.\n\n{1}: Draw two cards.\n",
+        "Subtype": "VAMPIRE",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Souveraine",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Helion, the Dominator",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 8,
+        "text": "Ambush\nLoyalty 2 → Gain control of target champion this turn. It gains blitz this turn.\n{expend}: Deal 2 damage to each of up to two targets.\n",
+        "Subtype": "HUMAN TYRANT",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Dylan Safford",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Helion's Fury",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\n- OR -\n\nIf it is your turn, return up to two target champions to their owner's hands and draw a card.\n",
+        "Subtype": "TYRANT",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Dylan Safford",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Insurgency",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Your human tokens gain blitz, unbreakable, and +1 {offense} this turn.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Gialer Liew",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Knight of Shadows",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 4,
+        "text": "Unblockable  Tribute → Draw a card. Each opponent discards a card. \n Helion's servant; your nightmare.\n",
+        "Subtype": "CONSTRUCT",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Grant Griffin",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Lesson Learned",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\n- OR -\n\nPlay an event from your discard pile without paying its cost, then banish it and this card.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Bramasta Aji",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Lightning Strike",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 5 damage to target champion.\n\n- OR -\n\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Markus, Watch Captain",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 10,
+        "text": "If an opponent causes you to discard this card, put it into play instead.  Tribute → You may banish up to three target token champions. \n Loyalty 2 → Draw a card.\n",
+        "Subtype": "HUMAN TYRANT",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Ina Wong",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Mist Guide Herald",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 3,
+        "toughness": 2,
+        "text": "Tribute → Reveal the top 5 cards of your deck. You may choose a champion card among them and put it into play. Banish the rest.\n",
+        "Subtype": "FAIRY",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Gialer Liew",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Necrovirus",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Break target champion.\nEach player puts a zombie token into play.\n{evil} → You may banish this card from your discard pile. If you do, put three zombie tokens into play.",
+        "Subtype": "ZOMBIE",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Souveraine",
+        "Set Name": "Tyrants"
+      },
+      {
+        "name": "Noble Martyr",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 4,
+        "text": "Blitz\nUnbanishable\n{good} → You may banish this card from your discard pile. If you do, put five human tokens into play.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Gialer Liew",
+        "Set Name": "Tyrants"
+      }
+    ]
+  },
+  "ONE": {
+    "name": "Set 1",
+    "code": "ONE",
+    "cards": [
+      {
+        "name": "Angel of Death",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 5,
+        "text": "Airborne\n\nLoyalty 2 → Break all other champions.\n\n(Airborne champions can only be blocked by other airborne champions.)\n",
+        "Subtype": "ANGEL",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Apocalypse",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\n— OR —\n\nIf it is your turn, break all champions.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Army of the Apocalypse",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, each player returns all champions in their discard pile to play without triggering loyalty or tribute abilities.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Bitten",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nBreak target champion. The player whose turn it is puts a zombie token into play.\n",
+        "Subtype": "ZOMBIE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Corpse Taker",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 1,
+        "text": "Tribute → You may return target {1} champion card from your discard pile to your hand.\n\n{expend}: Banish target card from any discard pile.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Odysseas Stamoglou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Dark Assassin",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 2,
+        "text": "Loyalty 2 → Blitz\n\n{expend}: Break target champion.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Dark Knight",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 2,
+        "text": "Ambush — Blitz\n\nUnbreakable on your turn.\n",
+        "Subtype": "VAMPIRE KNIGHT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Dark Leader",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 4,
+        "text": "Ambush — Blitz\n\nYour other human champions have +1 {offense} and are also evil.\n{expend}: Put a human token into play.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Demon Breach",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "If it is your turn, put 3 demon tokens into play. Otherwise, put 2 demon tokens into play.\n{1}: Recall\n\nWhen you recall this card → Lose 1 health.",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Drain Essence",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 9 damage to target champion.\n\nGain 9 health.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Drinker of Blood",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 4,
+        "text": "Airborne\nUnbreakable on your turn.\nWhen another champion is broken → If this card is in play, you gain 2 health and each opponent loses 2 health.\n",
+        "Subtype": "VAMPIRE",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Final Task",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nPut a champion from any discard pile into play under your control. It gains blitz this turn. Break it at the end of the turn.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Guilt Demon",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 3,
+        "toughness": 2,
+        "text": "Airborne — Ambush — Blitz\n\nTribute and/or when this attacks → You may banish target card in any discard pile.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Infernal Gatekeeper",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 9,
+        "text": "Tribute and/or {evil} → You may pay 1 health. If you do, put a demon token into play.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Daniel Dussault",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Inner Demon",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nBreak target champion. The player whose turn it is puts a demon token into play.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Medusa",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 8,
+        "text": "Ambush\n\nLoyalty 2 → Break target champion.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Murderous Necromancer",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 6,
+        "text": "Loyalty 2 → Put three zombie tokens into play.\n\n{expend}: Break target champion, then put a zombie token into play under your control.\n",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Necromancer Lord",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 1,
+        "text": "Loyalty 2 → Blitz\n\n{expend}: Put target champion from any discard pile into play under your control.\n",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Plague",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 1 damage to target player and to each champion they control. Draw a card.\nRecycle\n— OR —\nIf it is your turn, break all champions.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Plentiful Dead",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put a zombie token into play.\n{evil} → You may pay 1 health. If you do, recall.",
+        "Subtype": "ZOMBIE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Soul Hunter",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 5,
+        "text": "When this card is broken → Deal 5 damage to target player.\nIf this card is in your discard pile at the start of your turn → Return it to play.",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Succubus",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 5,
+        "text": "Airborne\nTribute → Draw a card.\nLoyalty 2 → Blitz\n{expend}: Banish target good champion.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "The Risen",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put three zombie tokens into play.\n\nYour evil champions gain blitz, +1 {offense} and +1 {defense} this turn.\n",
+        "Subtype": "ZOMBIE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Thrasher Demon",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 1,
+        "text": "Blitz\n\nBreak any champion damaged by this card.\n\nWhen this card attacks → Put two +1 {offense} +1 {defense} counters on it.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Trihorror",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 12,
+        "toughness": 12,
+        "text": "Breakthrough\n\nWhen this card is broken → Put three demon tokens into play.\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Unquenchable Thirst",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Banish X evil cards from your discard pile.\n\nDeal X+1 damage to target champion.\n\nGain X+1 health.\n",
+        "Subtype": "VAMPIRE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Vampire Lord",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 5,
+        "text": "Ambush — Blitz\n\nUnbreakable on your turn.\n\nWhen this card deals damage → Put two +1 {offense} +1 {defense} counters on this card.\n",
+        "Subtype": "VAMPIRE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Daniel Warren",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Wither",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 3 damage to target champion and all other champions with the same name.\n\nChampions damaged by this card get -3 {offense} this turn.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Word of Summoning",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put a demon token into play.\n\nRecycle\n",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Zombie Apocalypse",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nBreak all champions, then each player puts a zombie token into play for each champion in their discard pile.\n",
+        "Subtype": "ZOMBIE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Angel of Light",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 6,
+        "text": "Airborne — Ambush\n\nTribute → Gain 5 health.\n\nLoyalty 2 → Gain 5 health.\n",
+        "Subtype": "ANGEL",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Angel of Mercy",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 5,
+        "text": "Airborne — Ambush\n\nAt the start of your turn → You may put another good champion from your discard pile into play.\n",
+        "Subtype": "ANGEL",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Angelic Protector",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 9,
+        "text": "Airborne — Ambush\n\nTribute → Target champion gains unbreakable and untargetable this turn.\n",
+        "Subtype": "ANGEL",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Avenging Angel",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 6,
+        "text": "Airborne — Blitz — Righteous\n\nWhile this card is expended, you cannot be attacked.\n",
+        "Subtype": "ANGEL",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Banishment",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Banish target champion.\n\nThe player whose turn it is draws a card.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Brave Squire",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put a human token into play.\n\nTarget champion gains unbreakable and +5 {offense} this turn.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Ceasefire",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\nChampions cannot attack this turn. (The current attack, if any, is unaffected.)\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Courageous Soul",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 2,
+        "text": "Ambush\n\nWhen this card attacks → Your champions get +2 {offense} this turn.\n\n\"Follow me!\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Divine Judgment",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\n— OR —\n\nIf it is your turn, banish all champions.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Faithful Pegasus",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 2,
+        "text": "Airborne — Blitz\nTribute → Recycle\n\nWhen this champion attacks or blocks → One of your human champions may gain airborne this turn and attack or block with this card.\n",
+        "Subtype": "PEGASUS",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Feint",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\nRemove all of your attacking or blocking champions from battle and prepare them.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Gold Dragon",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 8,
+        "text": "Airborne — Blitz\n\nYour good champions have righteous.\n\n(When a righteous champion deals damage, its controller gains that much health.)\n",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "High King",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 0,
+        "toughness": 1,
+        "text": "Unbanishable\n\nLoyalty 2 → Blitz\n\n{expend}: Banish target champion.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Inheritance of the Meek",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nBanish all non-token champions. If it's an opponent's turn, they draw a card.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Inner Peace",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Gain 10 health.\n{good} → Recall",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Lord of the Arena",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 9,
+        "text": "Blitz\n\nTribute and/or {good} → This card gains unbreakable and +8 {offense} this turn.\n\nThis card must be blocked if able.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Noble Unicorn",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 6,
+        "text": "Ambush\n\nTribute and/or {good} → Draw a card.\n",
+        "Subtype": "UNICORN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Palace Guard",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 8,
+        "text": "Tribute → You may banish target champion.\n\n\"None shall pass.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Priest of Kalnor",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 4,
+        "text": "Tribute → Gain 4 health.\n\nLoyalty 2 → Target champion gains unbreakable and untargetable this turn.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Priestess of Angeline",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 2,
+        "text": "Tribute → Recycle\n\n{good} → Gain 3 health.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Rally the People",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put a human token into play. Your champions get +1 {offense} this turn.\n{1}: Recall",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Resurrection",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nTarget a champion card in your discard pile that was broken this turn. Return it to play.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Secret Legion",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nPut six human tokens into play.\nYour human champions gain blitz this turn.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Standard Bearer",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 5,
+        "text": "Ambush\n\nTribute → Put 2 human tokens into play.\n\nYour other good champions have +2 {offense}.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "The People's Champion",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 7,
+        "text": "Unbanishable\n\nTribute and/or {good} → Put two human tokens into play.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Thundarus",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 15,
+        "text": "Airborne — Unbanishable\n\nYour other dragons have +5 {offense} and +5 {defense}.\n\nDragon Lord of the North.\n",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Vital Mission",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Banish target champion. Its controller gains health equal to its offense.\nIf you were the champion's controller, draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Watchful Gargoyle",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 3,
+        "text": "Airborne — Ambush\n\nTribute → Recycle\n",
+        "Subtype": "GARGOYLE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "White Dragon",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 5,
+        "text": "Airborne\n\nTribute → If you played a {1} good card this turn, recycle.\n",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "La Capitana",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "White Knight",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 9,
+        "text": "Tribute → Draw a card.\n\nLoyalty 2 → Blitz\n\n{expend}: Break target evil champion.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Amnesia",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Banish target player's discard pile.\nRecycle\n— OR —\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Ancient Chant",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n{1}: Recall\n\nWhen this card leaves your discard pile → Draw a card.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Blue Dragon",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 4,
+        "text": "Airborne\n\nTribute → Draw a card and deal 2 damage to a target.\n\n{sage} → Deal 2 damage to a target.\n",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Crystal Golem",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 4,
+        "text": "Ambush — Untargetable\n\nBreak this card: Draw two cards.\n",
+        "Subtype": "CONSTRUCT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Deadly Raid",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nYour champions gain unblockable and +2 {offense} this turn.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Djinn of the Sands",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 5,
+        "text": "Airborne — Blitz\nTribute → Put three +1 {offense} +1 {defense} counters on this card.\n{expend}, Remove a counter from this card: Draw a card.\n",
+        "Subtype": "DJINN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Erase",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\nReturn target champion to its owner's hand.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Forcemage Apprentice",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 0,
+        "toughness": 1,
+        "text": "Blitz\n\n{expend}: Deal 2 damage to a target.\n\n{sage} → Prepare this card.\n",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Odysseas Stamoglou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Frost Giant",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 12,
+        "text": "Blitz\n\nTribute → Expend all champions target player controls.\n\nWinter has come.\n",
+        "Subtype": "GIANT",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Hasty Retreat",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Return target attacking champion to its owner's hand. If it was attacking you and was unblocked, its controller draws a card.\n— OR —\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Ice Drake",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 8,
+        "text": "Airborne — Ambush\n\nLoyalty 2 → Expend all champions target player controls.\n",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Juggernaut",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 3,
+        "text": "Breakthrough — Blitz\n\nLoyalty 2 → Draw a card.\n\nUnbreakable on your turn.\n",
+        "Subtype": "CONSTRUCT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Keeper of Secrets",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 3,
+        "text": "Blitz\n\n{sage} → Recycle\n{expend}: Banish a card from target player's discard pile.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Lying in Wait",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\n— OR —\n\nIf a champion is attacking alone, banish it.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Memory Spirit",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 4,
+        "text": "Airborne — Ambush\n\nTribute → You may return target event card from your discard pile to your hand.\n",
+        "Subtype": "SPIRIT",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Muse",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 2,
+        "text": "Airborne — Ambush\n\nAt the start of your turn → You may draw a card.\n",
+        "Subtype": "SPIRIT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Ogre Mercenary",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 3,
+        "text": "Tribute → Recycle\n\nOgres' skill at battle is matched only by their love of coin.\n",
+        "Subtype": "OGRE",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Psionic Assault",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Target player discards two cards at the end of the turn.\n{sage} → Recall",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Sea Titan",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 11,
+        "toughness": 14,
+        "text": "Untargetable\n\nTribute → Return target champion to its owner's hand.\n\nTidal waves signal their approach.\n",
+        "Subtype": "TITAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Spike Trap",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 5 damage to each attacking champion.\n\nRecycle\n\n(To recycle, you may banish two cards from your discard pile. If you do, draw a card.)\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Stand Alone",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nStarting with you, each player chooses a champion they control. Break all other champions.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Steel Golem",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 13,
+        "toughness": 13,
+        "text": "Untargetable\n\nLoyalty 2 → Blitz\n\n(While in play, untargetable cards cannot be selected as a \"target\" by any player.)\n",
+        "Subtype": "CONSTRUCT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Thought Plucker",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 1,
+        "toughness": 1,
+        "text": "Ambush — Unblockable\n\nTribute → Target opponent discards a card and you draw a card.\nWhen this card damages a player → That player discards a card and you draw a card.\n\n(This card received clarifying errata on October 15th 2015.)\n",
+        "Subtype": "IMP",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Time Bender",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 4,
+        "text": "Ambush\nLoyalty 2 → Blitz\n{expend}: Banish target {0} champion.\n{expend}: Return target champion to its owner's hand.\n",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Time Walker",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 10,
+        "text": "Loyalty 2 → Return all other champions to their owner's hands.\n\n(\"Loyalty 2\" means when this card comes into play, if you reveal two cards of the same alignment as this card, you gain the effect.)\n",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Transform",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nTransform target champion into a wolf token.\n(Put it on the bottom of its owner’s deck. Its controller puts a wolf token into play.)\n\n(This card received errata in November 2015.)\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Turn",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Gain control of target champion this turn. Prepare it. It has blitz this turn.\n— OR —\nIf it is your turn, gain control of target champion.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Warrior Golem",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 2,
+        "text": "Loyalty 2 → Blitz\n\nWhen this card goes into your discard pile from anywhere → Recycle.\n",
+        "Subtype": "CONSTRUCT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Wave of Transformation",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nTransform each champion into a wolf token.\n\n(This card received errata in November 2015.)\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Winter Fairy",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 3,
+        "text": "Airborne\n\nTribute → Draw a card.\n\nWhen this card damages an opponent and/or is broken → Draw a card.\n",
+        "Subtype": "FAIRY",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Bellowing Minotaur",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 5,
+        "text": "Blitz — Breakthrough\nTribute → Your wild champions get +2 {offense} and +2 {defense} this turn.\n{1}: Recall",
+        "Subtype": "MINOTAUR",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Burrowing Wurm",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 18,
+        "toughness": 18,
+        "text": "Breakthrough\n(Attackers with breakthrough may assign excess damage to the defending player equal to their total {offense} minus the total {defense} of all blocking champions.)\n",
+        "Subtype": "WURM",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Cave Troll",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 3,
+        "text": "\n{wild} → Recall\n\n(Recall means return this card to your hand from your discard pile.)",
+        "Subtype": "TROLL",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Chomp!",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 12 damage to target champion.\n\nYour dinosaur champions get +2 {offense} and +2 {defense} this turn.\n",
+        "Subtype": "DINOSAUR",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Fire Shaman",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 3,
+        "toughness": 2,
+        "text": "{wild} → Deal 3 damage to a target.\n\nShe controls fire better than her temper.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Fireball",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 3 damage to a target.\n— OR —\n{1}: Deal 3 damage to target player and each champion they control.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Flame Strike",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 8 damage to a target.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Flash Fire",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 2 damage to each champion and player.\n\n— OR —\n\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Forked Lightning",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 5 damage to each of up to two targets.\n\nSometimes, lightning strikes twice.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Hunting Raptors",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 5,
+        "text": "Ambush\n\nLoyalty 2 → Blitz\n\n{expend}: Deal 4 damage to a target.\n",
+        "Subtype": "DINOSAUR",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Hurricane",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n\n— OR —\n\nDeal 9 damage to each champion.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Jungle Queen",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 7,
+        "text": "Tribute → Draw a card.\n\nYour other wild champions have +1 {offense} and +1 {defense}.\n\nYou may play wild champions as if they had ambush.\n",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Kong",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 13,
+        "toughness": 14,
+        "text": "Tribute → Deal 13 damage to target champion.\n\n(Tribute means when this card comes into play, you gain the effect.)\n",
+        "Subtype": "GIANT APE",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Lash",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 1 damage to target champion. It gains breakthrough and +4 {offense} this turn.\n{1}: Recall",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Daniel Warren",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Lightning Storm",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 6 damage divided any way you choose to up to six targets.\n{1}: Recall",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Lurking Giant",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 11,
+        "toughness": 11,
+        "text": "Ambush\n\n(Cards with ambush may be played any time you can play an event.)\n",
+        "Subtype": "GIANT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Mighty Blow",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nTarget champion gains unbreakable and +10 {offense} this turn.\n",
+        "Subtype": "GIANT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Pack Alpha",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 6,
+        "text": "Blitz\n\nYour other wild champions have +1 {offense} and +1 {defense}.\n{expend}: Put two wolf tokens into play.\n",
+        "Subtype": "WOLF",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Pyromancer",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 7,
+        "text": "Ambush\n\nTribute → Deal 4 damage to a target.\n\n{1}: Deal 4 damage to a target.\n",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaan-Paul van Eeden",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Rage",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Target champion gains breakthrough, +4 {offense} and +4 {defense} this turn.\n— OR —\n{1}: Draw two cards.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Raging T-Rex",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 12,
+        "toughness": 10,
+        "text": "Loyalty 2 → Draw two cards.\n\nThis card must attack each turn if able.\n",
+        "Subtype": "DINOSAUR",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Sarah McCulloch",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Rain of Fire",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nChoose three targets. Deal 3 damage to the first, 4 damage to the second, and 5 damage to the third.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Rampaging Wurm",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 14,
+        "toughness": 14,
+        "text": "Blitz\n\n(Blitz champions may attack or use expend powers the turn they enter play.)\n",
+        "Subtype": "WURM",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Daniel Dussault",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Sea Hydra",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 10,
+        "text": "Tribute → Draw a card.\nAt the end of each turn → Put a +1 {offense} +1 {defense} counter on this card for each point of damage it took this turn.\n{1}: Recall",
+        "Subtype": "HYDRA",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Strafing Dragon",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 6,
+        "text": "Airborne — Ambush — Blitz\n\nLoyalty 2 → Deal 5 damage to a target.\n",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Surprise Attack",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw a card.\n\nYou may put a champion from your hand into play.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Triceratops",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 10,
+        "text": "Breakthrough\n\nTribute → Draw a card.\n",
+        "Subtype": "DINOSAUR",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Wolf Companion",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Target champion gets +2 {offense} +2 {defense} this turn.\n{1}: Recall\nWhen this card leaves your discard pile → Put a wolf token into play.",
+        "Subtype": "WOLF",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Wolf's Call",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put four wolf tokens into play.\n\nYour wolf champions gain blitz this turn.\n",
+        "Subtype": "WOLF",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "L.Sean",
+        "Set Name": "Set 1"
+      },
+      {
+        "name": "Wurm Hatchling",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 4,
+        "text": "Breakthrough\n\n{wild} → Put two +1 {offense} +1 {defense} counters on this card.\n",
+        "Subtype": "WURM",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Set 1"
+      }
+    ]
+  }
+}
