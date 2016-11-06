@@ -1,4 +1,730 @@
 {
+  "UPR": {
+    "name": "Uprising",
+    "code": "UPR",
+    "cards": [
+      {
+        "name": "Fires of Rebellion",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 7 damage to each opposing player.\n- OR -\nDraw a card. Deal 7 damage to target champion.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Grave Demon",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 8,
+        "text": "Ambush\nTribute → Banish target player's discard pile.",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Apsara",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Consume",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 3 damage to target champion.\nGain 3 health.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Martial Law",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put five human tokens into play.\n— OR —\nBanish all champions. If it's an opponent's turn, that player puts four human tokens into play.\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Trevor Smith",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Mythic Monster",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 13,
+        "toughness": 15,
+        "text": "Tribute → Draw a card.",
+        "Subtype": "SPIRIT",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Dhennis Balontong",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Spore Beast",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 2,
+        "text": "Ambush\nLoyalty 2 → Blitz\n{expend}: Remove another target champion from battle.",
+        "Subtype": "PLANT",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaime Tayag",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Winged Death",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 3,
+        "text": "Airborne - Blitz\nTribute and/or when this card damages a player → Each opponent must break a champion they control if able.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Apsara",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Citadel Scholar",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 0,
+        "toughness": 1,
+        "text": "Tribute → Recycle.\nWhen you draw a card → Put a +1 {offense} +1 {defense} counter on this card.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Dimas Pamungkas",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Fairy Trickster",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 5,
+        "text": "Airborne - Ambush - Blitz\n{expand}: Reveal the top card of target player's deck. You may play it (paying all costs). If you don't, banish it.",
+        "Subtype": "FAIRY",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Stephanie Bohm",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Knight of Elara",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 8,
+        "text": "Blitz\nLoyalty 2 → Draw a card.\nWhen this card is blocked → Transform each blocking non-wolf champion into a wolf token that is blocking this card.\n",
+        "Subtype": "HUMAN KNIGHT",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Melvin Chan",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Hunting Pack",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put three wolf tokens into play.\nTarget a champion. You may deal 2 damage to it for each wolf you have in play.",
+        "Subtype": "WOLF",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Apsara",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Go Wild",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Target champion gets +4 {offense} +4 {defense} this turn.\nRecycle",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Souveraine",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "No Escape",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nBreak target champion. The player whose turn it is may return a champion card from their discard pile to their hand.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Christian Schob",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Force Field",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw 2 cards.\n- OR -\nEach opposing champion gets -5 {offense} this turn. Draw a card.\n- OR -\nEach opposing champion gets -10 {offense} this turn.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Reset",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw 2 cards.\n- OR -\nReturn each champion to its owner's hand. The player whose turn it is draws a card.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jamie Tayag",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Brand, Rebel Fighter",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 5,
+        "text": "Ambush\nTribute → Target champion gets +3 {offense} this turn.\nLoyalty 2 → Gain 5 health.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Gialer Liew",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Master Zo",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 8,
+        "text": "Ambush\nWhen this card attacks or blocks → This card gains unbreakable this turn.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Dhennis Balontong",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Erratic Research",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw 2 cards.\nBanish target player's discard pile.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Angel of the Gate",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 7,
+        "toughness": 7,
+        "text": "Airborne - Ambush\nAt the start of your turn → Gain 5 health.",
+        "Subtype": "ANGEL",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "LEG Giordano",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Rescue Griffin",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 3,
+        "toughness": 7,
+        "text": "Airborne - Ambush",
+        "Subtype": "GRIFFIN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Orjan Swendsen",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Village Protector",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 10,
+        "text": "Tribute → Put two human tokens into play.\nWhile you have any human tokens in play, this card is unbreakable and can't be damaged.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Melvin Chan",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Den Mother",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 8,
+        "text": "Breakthrough\nTribute → Put three wolf tokens into play.\nWhen a wolf you control is broken → This card gains +3 {offense} and +3 {defense} this turn.",
+        "Subtype": "WOLF",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "David Nash",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Flame Spike",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 2 damage to a target.\nRecycle",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Antonis Papantoniou",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Demonic Rising",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nBreak all champions. For each champion broken this way, its controller puts a demon token into play. Demon champions gain blitz this turn.",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Raxxa's Enforcer",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 5,
+        "text": "Opposing champions have -3 {offense}.\n Tribute → Deal 3 damage to each opposing champion.",
+        "Subtype": "DEMON",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Grant Griffin",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Rift Summoner",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 5,
+        "toughness": 5,
+        "text": "Ambush - Blitz\nLoyalty 2 → Put a demon token into play.\n{expend}, Break a champion you control: Put two demon tokens into play.",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Dimas Pamungkas",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Zannos, Corpse Lord",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 9,
+        "text": "Loyalty X → For each card revealed, each opponent loses 1 health, you gain 1 health, and you put a zombie token into play.",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Orjan Swendsen",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Corpsemonger",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 3,
+        "text": "Blitz\n{expend}: Banish target card in a discard pile. If you banish a champion in this way, gain 3 health.",
+        "Subtype": "HUMAN MAGE",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Plague Zombies",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Put three zombie tokens into play.\nThis turn, your zombies gain blitz and \"When this card is broken → Deal 2 damage to target player.\"",
+        "Subtype": "ZOMBIE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Nichole Balsley",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Citadel Raven",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 3,
+        "toughness": 3,
+        "text": "Airborne — Blitz\nWhen this card attacks → You may return target event card from your discard pile to your hand.",
+        "Subtype": "BIRD",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Biagio D'Alessandro",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Reusable Knowledge",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw a card. You may return target card from your discard pile to your hand.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "L. Sean",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Siren's Song",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "If it is your turn, gain control of target {0} champion. Expend that champion.\n— OR —\n{1}: Draw two cards.",
+        "Subtype": "SPIRIT",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Jamie Tayag",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Avenger of Covenant",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 8,
+        "toughness": 8,
+        "text": "Ambush\nTribute → Banish target champion that dealt damage to you this turn.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jaime Tayag",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Bodyguard",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 2,
+        "toughness": 1,
+        "text": "Ambush - Blitz\n{good} → Recall",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Biagio D'Alessandro",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Entangling Vines",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 8,
+        "text": "Ambush\nTribute and/or {wild} → You may expand target champion.",
+        "Subtype": "PLANT",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Souveraine",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Justice Prevails",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Draw two cards.\n— OR —\nDraw a card. Your {0} champions gain righteous, +3 {offense} and +3 {defense} this turn..\n",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "David Nash",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Silver Dragon",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 8,
+        "text": "Airborne\nTribute → Draw a card. You may banish up to three target token champions.",
+        "Subtype": "DRAGON",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Jonny Talala",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Gladius, the Defender",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 11,
+        "text": "Unbanishable\nYour other good champions get +3 {offense}.\n{expend}: Put three human tokens into play.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Gabriel Cassata",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Velden, Frost Titan",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 13,
+        "text": "Blitz\nLoyalty X → For each card revealed, you may return one target opposing champion to its owner's hand.",
+        "Subtype": "TITAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Jawad Tariq",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Scarros, Hound of Draka",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 11,
+        "toughness": 11,
+        "text": "Loyalty X → Deal X damage to target player and to each of their champions.",
+        "Subtype": "HOUND",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Johnny Morrow",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Savage Uprising",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Deal 5 daamge to target player. Draw a card.\n\n- OR -\nDeal 9 damage to each {1} champion.",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Nichole Balsley",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Chamberlain Kark",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "power": 9,
+        "toughness": 12,
+        "text": "Loyalty X → For each card revealed, you gain 2 health.\nTribute → If you have at least twice your starting health, you win the game.",
+        "Subtype": "HUMAN",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Apsara",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Pyrosaur",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "power": 6,
+        "toughness": 3,
+        "text": "Loyalty 2 → Blitz \n Tribute and/or When this card attacks → Deal 2 damage to each opposing champion and player.",
+        "Subtype": "DINOSAUR DRAGON",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "David Nash",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Winds of Change",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Your champions gain breakthrough this turn. Put two +1 {offense} +1 {defense} counters on each of them.\n\n- OR -\nTarget champion gains breakthrough this turn. Put five +1 {offense} +1 {defense} counters on it. Draw a card..",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Red (rare)",
+        "Artist Name": "Dhennis Balontong",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Little Devil",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 4,
+        "toughness": 4,
+        "text": "Airborne — Blitz",
+        "Subtype": "DEVIL",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "David Nash",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Saren, Night Stalker",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 7,
+        "text": "Blitz\n\nUnbreakable on your turn.",
+        "Subtype": "VAMPIRE",
+        "Gem Color (cube rarity)": "White (common)",
+        "Artist Name": "Evan SN",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "Frantic Digging",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "power": "",
+        "toughness": "",
+        "text": "Discard a card. Draw a card.\nRecycle",
+        "Subtype": "",
+        "Gem Color (cube rarity)": "Rare",
+        "Artist Name": "Melvin Chan",
+        "Set Name": "Uprising"
+      },
+      {
+        "name": "War Machine",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "power": 10,
+        "toughness": 10,
+        "text": "Loyalty 2 → Blitz \n Tribute → Banish all opposing {0} champions.",
+        "Subtype": "CONSTRUCT",
+        "Gem Color (cube rarity)": "Common",
+        "Artist Name": "Melvin Chan",
+        "Set Name": "Uprising"
+      }
+    ]
+  },
   "PRM": {
     "name": "Promotional",
     "code": "PRM",
