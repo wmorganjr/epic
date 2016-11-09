@@ -38,6 +38,8 @@
             <reverse-related>Raxxa's Curse</reverse-related>
             <reverse-related>Reaper</reverse-related>
             <reverse-related>Spawning Demon</reverse-related>
+            <reverse-related>Demonic Rising</reverse-related>
+            <reverse-related>Rift Summoner</reverse-related>
         </card>
         <card>
             <name>Human</name>
@@ -62,6 +64,9 @@
             <reverse-related>Rabble Rouser</reverse-related>
             <reverse-related>Revolt</reverse-related>
             <reverse-related>Urgent Messengers</reverse-related>
+            <reverse-related>Gladius, the Defender</reverse-related>
+            <reverse-related>Martial Law</reverse-related>
+            <reverse-related>Village Protector</reverse-related>
         </card>
         <card>
             <name>Wolf</name>
@@ -80,6 +85,9 @@
             <reverse-related>Wolf's Call</reverse-related>
             <reverse-related>Elara, the Lycomancer</reverse-related>
             <reverse-related>Wolf's Bite</reverse-related>
+            <reverse-related>Knight of Elara</reverse-related>
+            <reverse-related>Hunting Pack</reverse-related>
+            <reverse-related>Den Mother</reverse-related>
         </card>
         <card>
             <name>Zombie</name>
@@ -101,6 +109,8 @@
             <reverse-related>Necrovirus</reverse-related>
             <reverse-related>Reap or Sow</reverse-related>
             <reverse-related>Zealous Necromancer</reverse-related>
+            <reverse-related>Zannos, Corpse Lord</reverse-related>
+            <reverse-related>Plague Zombies</reverse-related>
         </card>
     </cards>
 </cockatrice_carddatabase>
