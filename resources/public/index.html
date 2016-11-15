@@ -20,11 +20,11 @@ $(function() {
     $.getJSON("/drafts/" + draftId + "/seats/" + seatId + "/pack", {}, function(cards) {
       $("div#cards").empty();
       $.each(cards, function(idx, card) {
-        var p = $("<p>");
+        var span = $("<span>");
         var button = $("<button>Pick</button>");
-        p.text(card);
-        p.append(button);
-        p.appendTo("#cards");
+        span.append("<img src=\"images/" + card + ".jpg\" />");
+        span.append(button);
+        span.appendTo("#cards");
         button.click(function() {
           $.post("/drafts/" + draftId + "/seats/" + seatId + "/pick", {card: card}, function() {
             $("div#cards").empty();
@@ -40,9 +40,9 @@ $(function() {
     $.getJSON("/drafts/" + draftId + "/seats/" + seatId + "/picks", {}, function(cards) {
       $("div#cards").empty();
       $.each(cards, function(idx, card) {
-        var p = $("<p>");
-        p.text(card);
-        p.appendTo("#cards");
+        var span = $("<span>");
+        span.append("<img src=\"images/" + card + ".jpg\" />");
+        span.appendTo("#cards");
       });
     });
   });
