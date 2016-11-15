@@ -66,7 +66,7 @@
        (cycle)
        (drop (if (even? round)
                starting-seat
-               (- (:player-count (:config draft)) starting-seat)))
+               (- (dec (:player-count (:config draft))) starting-seat)))
        (map #(get %2 %1) (range))
        (take-while some?)))
 
@@ -74,9 +74,10 @@
   [draft seat]
   (let [pick-count (count (get-in draft [:picks seat]))
         round      (int (/ pick-count (:pack-size (:config draft))))
-        pack-seat  (upstream draft seat (* pick-count (if (even? round) 1 -1)))
+        pack-picks (rem pick-count (:pack-size (:config draft)))
+        pack-seat  (upstream draft seat (* pack-picks (if (even? round) 1 -1)))
         picks      (picks-from-pack draft pack-seat round)]
-    (if (= (count picks) (rem pick-count (:pack-size (:config draft))))
+    (if (= (count picks) pack-picks)
       (remove-picks-from-pack (initial-pack-contents draft pack-seat round)
                               picks))))
 
