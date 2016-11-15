@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+<!--
+ARE YOU A PROGRAMMER? DO YOU PLAY EPIC? CHECK OUT THE SOURCE CODE HERE:
+
+https://github.com/wmorganjr/epic
+-->
 <html>
 <head>
 <title>Epic Cube Draft Suckas</title>
@@ -54,13 +59,29 @@ function status() {
 }
 
 $(function() {
-  status();
-  setInterval(function() { status(); }, 5000);
-  $("#tabs").tabs();
+  if (draftId && seatId) {
+    $("#draft").show();
+    $("#readme").hide();
+    status();
+    setInterval(function() { status(); }, 5000);
+    $("#tabs").tabs();
+  }
 });
 </script>
 </head>
 <body>
+<div id='readme'>
+<h1>Epic Draft Club</h1>
+<p>The Epic Cube Draft is coming to the Web! We'll be running Epic Cube drafts on
+this site tonight, and every night until Worlds. The first draft will be at 9PM Eastern / 6PM
+Pacific on November 15. If you're interested in drafting with us, contact Will:</p>
+<ul>
+<li>wm on Discord</li>
+<li>Will Morgan on Facebook</li>
+</ul>
+</div>
+
+<div id='draft' style='display:none'>
 <div id='status'>
 <p></p>
 <strong>Pick Summary</strong>
@@ -69,11 +90,12 @@ $(function() {
 <p><button id='see'>See My Cards</button></p>
 <div id='tabs'>
   <ul>
-    <li><a href="#pack">Pack</a></li>
+    <li><a href="#pack" id='pack-tab'>Pack</a></li>
     <li><a href="#picks">Drafted Cards</a></li>
   </ul>
 <div id='pack'></div>
 <div id='picks'></div>
+</div>
 </div>
 </body>
 </html>

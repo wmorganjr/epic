@@ -70,8 +70,6 @@
 (defn status
   [req]
   (let [{:keys [draft-id seat-id]} (:params req)]
-    (prn draft-id seat-id)
-    (prn (get-in @state [:drafts draft-id :seats seat-id]))
     (if-let [seat (get-in @state [:drafts draft-id :seats seat-id])]
       (response
         {:picks (get-in @state [:drafts draft-id :picks seat])
