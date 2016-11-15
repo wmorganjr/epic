@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Epic Cube Draft Suckas</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type='text/javascript'>
+function qs(key) {
+  key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+  var match = location.search.match(new RegExp("[?&]"+key+"=([^&]+)(&|$)"));
+  return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+}
+
+$(function() {
+  $("#draft").val(qs("draftId"));
+  $("#seat").val(qs("seatId"));
+
+  $("button#get").click(function() {
+    var draftId = $("#draft").val();
+    var seatId = $("#seat").val();
+    $.getJSON("/drafts/" + draftId + "/seats/" + seatId + "/pack", {}, function(cards) {
+      $("div#cards").empty();
+      $.each(cards, function(idx, card) {
+        var p = $("<p>");
+        var button = $("<button>Pick</button>");
+        p.text(card);
+        p.append(button);
+        p.appendTo("#cards");
+        button.click(function() {
+          $.post("/drafts/" + draftId + "/seats/" + seatId + "/pick", {card: card}, function() {
+            $("div#cards").empty();
+          })
+        });
+      });
+    });
+  });
+
+  $("button#see").click(function() {
+    var draftId = $("#draft").val();
+    var seatId = $("#seat").val();
+    $.getJSON("/drafts/" + draftId + "/seats/" + seatId + "/picks", {}, function(cards) {
+      $("div#cards").empty();
+      $.each(cards, function(idx, card) {
+        var p = $("<p>");
+        p.text(card);
+        p.appendTo("#cards");
+      });
+    });
+  });
+});
+</script>
+</head>
+<body>
+<p><strong>Draft ID</strong><input type='text' id='draft' /></p>
+<p><strong>Seat ID</strong><input type='text' id='seat' /></p>
+<p><button id='get'>Get Cards</button></p>
+<p><button id='see'>See My Cards</button></p>
+<div id='cards'>
+</div>
+</body>
+</html>
