@@ -72,7 +72,6 @@
 
 (defn cards-still-in-pack
   [draft seat]
-  (def d draft) (def s seat)
   (let [pick-count (count (get-in draft [:picks seat]))
         round      (int (/ pick-count (:pack-size (:config draft))))
         pack-seat  (upstream draft seat (* pick-count (if (even? round) 1 -1)))

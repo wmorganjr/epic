@@ -67,14 +67,30 @@
     (if-let [seat (get-in @state [:drafts draft-id :seats seat-id])]
       (response (get-in @state [:drafts draft-id :picks seat])))))
 
+(defn status
+  [req]
+  (let [{:keys [draft-id seat-id]} (:params req)]
+    (prn draft-id seat-id)
+    (prn (get-in @state [:drafts draft-id :seats seat-id]))
+    (if-let [seat (get-in @state [:drafts draft-id :seats seat-id])]
+      (response
+        {:picks (get-in @state [:drafts draft-id :picks seat])
+         :pack  (-> (cube/cards-still-in-pack (get-in @state [:drafts draft-id]) seat)
+                    (util/unfrequencies)
+                    (sort))
+         :table {:config (get-in @state [:drafts draft-id :config])
+                 :seat  seat
+                 :picks (map count (get-in @state [:drafts draft-id :picks]))
+                 :time  (System/currentTimeMillis)}}))))
+
 (defroutes my-routes
   (POST "/drafts/new" [] new-draft!)
   (GET "/drafts/list" [] list-drafts)
   (GET "/drafts/:draft-id/seats/:seat-id/pack" [] current-pack)
   (GET "/drafts/:draft-id/seats/:seat-id/picks" [] get-picks)
+  (GET "/drafts/:draft-id/seats/:seat-id/status" [] status)
   (POST "/drafts/:draft-id/seats/:seat-id/pick" [] make-pick!)
-  (route/resources "/")
-  )
+  (route/resources "/"))
 
 (def app
   (-> my-routes

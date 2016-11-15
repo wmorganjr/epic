@@ -3,58 +3,77 @@
 <head>
 <title>Epic Cube Draft Suckas</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type='text/javascript'>
+
 function qs(key) {
   key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
   var match = location.search.match(new RegExp("[?&]"+key+"=([^&]+)(&|$)"));
   return match && decodeURIComponent(match[1].replace(/\+/g, " "));
 }
 
+var draftId = qs("draftId");
+var seatId = qs("seatId");
+
+function status() {
+  $.getJSON("/drafts/" + draftId + "/seats/" + seatId + "/status", {}, function(data) {
+
+    $("div#status p").text("An Epic Cube draft with " + data.table.config['player-count'] +
+                           " players, and " + data.table.config['pack-size'] + " cards in each" +
+                           " pack. Sets in use are " + data.table.config['set-names'].join(", ") +
+                           ". You are in seat " + (data.table.seat + 1) + ".");
+
+    $("div#status table thead").html("<td><strong>Seat</strong></td>");
+    $("div#status table tbody").html("<td><strong>Number of Picks</strong></td>");
+    $.each(data.table.picks, function(idx, num) {
+      $("div#status table thead").append("<td>" + (idx + 1) + "</td>");
+      $("div#status table tbody").append("<td>" + num + "</td>");
+    });
+
+    $("div#picks").empty();
+    $.each(data.picks, function(idx, card) {
+      var span = $("<span>");
+      span.append("<img src=\"images/" + card + ".jpg\" />");
+      span.appendTo("#picks");
+    });
+
+    $("div#pack").empty();
+    $.each(data.pack, function(idx, card) {
+      var span = $("<span>");
+      var button = $("<button>Pick</button>");
+      span.append("<img src=\"images/" + card + ".jpg\" />");
+      span.append(button);
+      span.appendTo("#pack");
+      button.click(function() {
+        $.post("/drafts/" + draftId + "/seats/" + seatId + "/pick", {card: card}, function() {
+          $("div#pack").empty();
+        })
+      });
+    });
+  });
+}
+
 $(function() {
-  $("#draft").val(qs("draftId"));
-  $("#seat").val(qs("seatId"));
-
-  $("button#get").click(function() {
-    var draftId = $("#draft").val();
-    var seatId = $("#seat").val();
-    $.getJSON("/drafts/" + draftId + "/seats/" + seatId + "/pack", {}, function(cards) {
-      $("div#cards").empty();
-      $.each(cards, function(idx, card) {
-        var span = $("<span>");
-        var button = $("<button>Pick</button>");
-        span.append("<img src=\"images/" + card + ".jpg\" />");
-        span.append(button);
-        span.appendTo("#cards");
-        button.click(function() {
-          $.post("/drafts/" + draftId + "/seats/" + seatId + "/pick", {card: card}, function() {
-            $("div#cards").empty();
-          })
-        });
-      });
-    });
-  });
-
-  $("button#see").click(function() {
-    var draftId = $("#draft").val();
-    var seatId = $("#seat").val();
-    $.getJSON("/drafts/" + draftId + "/seats/" + seatId + "/picks", {}, function(cards) {
-      $("div#cards").empty();
-      $.each(cards, function(idx, card) {
-        var span = $("<span>");
-        span.append("<img src=\"images/" + card + ".jpg\" />");
-        span.appendTo("#cards");
-      });
-    });
-  });
+  status();
+  setInterval(function() { status(); }, 5000);
+  $("#tabs").tabs();
 });
 </script>
 </head>
 <body>
-<p><strong>Draft ID</strong><input type='text' id='draft' /></p>
-<p><strong>Seat ID</strong><input type='text' id='seat' /></p>
-<p><button id='get'>Get Cards</button></p>
+<div id='status'>
+<p></p>
+<strong>Pick Summary</strong>
+<table><thead></thead><tbody></tbody></table>
+</div>
 <p><button id='see'>See My Cards</button></p>
-<div id='cards'>
+<div id='tabs'>
+  <ul>
+    <li><a href="#pack">Pack</a></li>
+    <li><a href="#picks">Drafted Cards</a></li>
+  </ul>
+<div id='pack'></div>
+<div id='picks'></div>
 </div>
 </body>
 </html>
