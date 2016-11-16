@@ -73,7 +73,8 @@
         pack-picks (rem pick-count (:pack-size (:config draft)))
         pack-seat  (upstream draft seat (* pack-picks (if (even? round) 1 -1)))
         picks      (picks-from-pack draft pack-seat round)]
-    (if (= (count picks) pack-picks)
+    (if (and (< round 3)
+             (= (count picks) pack-picks))
       (remove-picks-from-pack (initial-pack-contents draft pack-seat round)
                               picks))))
 
