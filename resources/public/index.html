@@ -7,6 +7,11 @@ https://github.com/wmorganjr/epic
 <html>
 <head>
 <title>Epic Cube Draft Suckas</title>
+<style type='text/css'>
+table {
+  text-align: center;
+}
+</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type='text/javascript'>
@@ -29,10 +34,12 @@ function status() {
                            ". You are in seat " + (data.table.seat + 1) + ".");
 
     $("div#status table thead").html("<td><strong>Seat</strong></td>");
-    $("div#status table tbody").html("<td><strong>Number of Picks</strong></td>");
+    $("div#status table tbody tr:eq(0)").html("<td><strong>Player</strong></td>");
+    $("div#status table tbody tr:eq(1)").html("<td><strong>Picks Made</strong></td>");
     $.each(data.table.picks, function(idx, num) {
       $("div#status table thead").append("<td>" + (idx + 1) + "</td>");
-      $("div#status table tbody").append("<td>" + num + "</td>");
+      $("div#status table tbody tr:eq(0)").append("<td>" + data.table.config['player-names'][idx] + "</td>");
+      $("div#status table tbody tr:eq(1)").append("<td>" + num + "</td>");
     });
 
     $("div#picks").empty();
@@ -63,7 +70,7 @@ $(function() {
     $("#draft").show();
     $("#readme").hide();
     status();
-    setInterval(function() { status(); }, 5000);
+    setInterval(function() { status(); }, 3000);
     $("#tabs").tabs();
   }
 });
@@ -85,7 +92,7 @@ Pacific on November 15. If you're interested in drafting with us, contact Will:<
 <div id='status'>
 <p></p>
 <strong>Pick Summary</strong>
-<table><thead></thead><tbody></tbody></table>
+<table><thead></thead><tbody><tr></tr><tr></tr></tbody></table>
 </div>
 <p><button id='see'>See My Cards</button></p>
 <div id='tabs'>

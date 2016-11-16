@@ -21,10 +21,12 @@
                   "player-count" "8"}]
     (fn [req]
       (-> (merge defaults (:params req))
+        (update :player-names string/split #",")
+        (update :player-names shuffle)
         (update :set-names string/split #",")
         (update :player-count #(Integer/parseInt %))
         (update :pack-size #(Integer/parseInt %))
-        (select-keys [:set-names :player-count :pack-size])))))
+        (select-keys [:set-names :player-count :pack-size :player-names])))))
 
 (defn new-draft!
   [req]
@@ -32,6 +34,11 @@
         draft    (cube/new-draft (req->config req))]
     (swap! state assoc-in [:drafts draft-id] draft)
     (response {:draft-id draft-id
+               :players  (for [[player [seat-id _]] (zipmap (:player-names (:config draft))
+                                                            (:seats draft))]
+                           {:player player
+                            :seat seat-id
+                            :url (format "http://epicdraft.club/index.html?draftId=%s&seatId=%s" draft-id seat-id)})
                :seats    (:seats draft)})))
 
 (defn list-drafts

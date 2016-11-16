@@ -37,7 +37,7 @@
       (throw (Exception. "Not enough cards in pool to start draft."))))
   {:config config
    :packs  (cube-packs config)
-   :seats  (zipmap (repeatedly player-count util/random-uuid) (range)) 
+   :seats  (zipmap (repeatedly player-count util/random-uuid) (range))
    :picks  (vec (repeat player-count []))})
 
 (defn upstream
@@ -49,10 +49,6 @@
   [pack picks]
   (merge-with - pack
                 (frequencies picks)))
-
-(defn picks-from-pack
-  [picks starting-seat]
-  (take-while some? (map get (drop starting-seat (cycle picks)) (range))))
 
 (defn initial-pack-contents
   [draft seat round]
@@ -88,19 +84,4 @@
 (defn picks
   [draft seat]
   (get-in draft [:picks seat]))
-
-(def my-config
-  {:set-names ["Uprising" "Tyrants" "Set 1"]
-   :pack-size 12
-   :player-count 2})
-
-(def d (new-draft my-config))
-
-(first (cards-still-in-pack d 0))
-
-(-> d
-  (add-pick 0 "Battle Cry")
-  (add-pick 1 "Royal Escort")
-  (cards-still-in-pack 1))
-
 
