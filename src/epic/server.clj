@@ -32,14 +32,16 @@
   [req]
   (let [draft-id (util/random-uuid)
         draft    (cube/new-draft (req->config req))]
-    (swap! state assoc-in [:drafts draft-id] draft)
-    (response {:draft-id draft-id
-               :players  (for [[player [seat-id _]] (zipmap (:player-names (:config draft))
-                                                            (:seats draft))]
-                           {:player player
-                            :seat seat-id
-                            :url (format "http://epicdraft.club/index.html?draftId=%s&seatId=%s" draft-id seat-id)})
-               :seats    (:seats draft)})))
+    (if (> (count (:drafts @state)) 1000)
+      (throw (Exception. "This is why we can't have nice things"))
+      (do (swap! state assoc-in [:drafts draft-id] draft)
+          (response {:draft-id draft-id
+                     :players  (for [[player [seat-id _]] (zipmap (:player-names (:config draft))
+                                                                  (:seats draft))]
+                                 {:player player
+                                  :seat seat-id
+                                  :url (format "http://epicdraft.club/index.html?draftId=%s&seatId=%s" draft-id seat-id)})
+                     :seats    (:seats draft)})))))
 
 (defn list-drafts
   [_]
