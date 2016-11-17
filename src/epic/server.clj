@@ -1,16 +1,13 @@
 (ns epic.server
-  (:require [clojure.string :as string]
-            [epic.cube      :as cube]
-            [epic.util      :as util]))
-
-(require '[ring.middleware.json :refer [wrap-json-response]]
-         '[ring.util.response :refer [response]]) 
-
-(require '[compojure.core :refer :all])
-(require '[compojure.route :as route])
-
-(require '[ring.middleware.params :refer [wrap-params]])
-(require '[ring.middleware.keyword-params :refer [wrap-keyword-params]])
+  (:require [ring.middleware.keyword-params :refer [wrap-keyword-params]]
+            [ring.middleware.params         :refer [wrap-params]]
+            [ring.middleware.json           :refer [wrap-json-response]]
+            [ring.util.response             :refer [response]]
+            [compojure.route                :as route]
+            [compojure.core                 :refer :all]
+            [clojure.string                 :as string]
+            [epic.cube                      :as cube]
+            [epic.util                      :as util]))
 
 (defonce state
   (atom {:drafts {}}))
@@ -104,5 +101,3 @@
       (wrap-json-response)
       (wrap-keyword-params)
       (wrap-params)))
-
-

@@ -1,7 +1,7 @@
 (ns epic.cube
   (:require [clojure.java.io :as io]
-            [cheshire.core :as json]
-            [epic.util :as util]))
+            [cheshire.core   :as json]
+            [epic.util       :as util]))
 
 (def cards
   (->> (io/resource "epic.json")
@@ -85,4 +85,3 @@
 (defn picks
   [draft seat]
   (get-in draft [:picks seat]))
-
