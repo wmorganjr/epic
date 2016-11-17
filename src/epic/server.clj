@@ -14,16 +14,19 @@
 
 (def req->config
   (let [defaults {"set-names" "Set 1,Uprising,Tyrants"
-                  "pack-size" "12"
-                  "player-count" "8"}]
+                  "pack-size" "12"}]
     (fn [req]
-      (-> (merge defaults (:params req))
-        (update :player-names string/split #",")
-        (update :player-names shuffle)
-        (update :set-names string/split #",")
-        (update :player-count #(Integer/parseInt %))
-        (update :pack-size #(Integer/parseInt %))
-        (select-keys [:set-names :player-count :pack-size :player-names])))))
+      (let [names (-> (:params req)
+                      (:player-names)
+                      (string/split #",")
+                      (shuffle))]
+        (-> (merge defaults
+                   (:params req)
+                   {:player-names names
+                    :player-count (count names)})
+            (update :set-names string/split #",")
+            (update :pack-size #(Integer/parseInt %))
+            (select-keys [:set-names :player-count :pack-size :player-names]))))))
 
 (defn new-draft!
   [req]
