@@ -110,12 +110,18 @@
                  :picks (map count (get-in @state [:drafts draft-id :picks]))
                  :time  (System/currentTimeMillis)}}))))
 
+(defn telemetry
+  [req]
+  (if (= (:password (:params req)) (System/getenv "TELEMETRY_PASSWORD"))
+    (response @state)))
+
 (defroutes my-routes
   (POST "/drafts/new" [] new-draft!)
   (GET "/drafts/list" [] list-drafts)
   (GET "/drafts/:draft-id/seats/:seat-id/pack" [] current-pack)
   (GET "/drafts/:draft-id/seats/:seat-id/picks" [] get-picks)
   (GET "/drafts/:draft-id/seats/:seat-id/status" [] status)
+  (GET "/zz/telemetry" [] telemetry)
   (POST "/drafts/:draft-id/seats/:seat-id/pick" [] make-pick!)
   (route/resources "/")
   (GET "/" [] (redirect "/about.html")))
