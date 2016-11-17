@@ -6,6 +6,7 @@
             [compojure.route                :as route]
             [compojure.core                 :refer :all]
             [clojure.string                 :as string]
+            [twilio.core                    :as twilio]
             [epic.cube                      :as cube]
             [epic.util                      :as util]))
 
@@ -28,6 +29,24 @@
             (update :pack-size #(Integer/parseInt %))
             (select-keys [:set-names :player-count :pack-size :player-names]))))))
 
+(defn twilio-enabled?
+  []
+  (and (System/getenv "TWILIO_FROM_NUMBER")
+       (System/getenv "TWILIO_TO_NUMBER")
+       (System/getenv "TWILIO_SID")
+       (System/getenv "TWILIO_AUTH_TOKEN")))
+
+(defn text!
+  [draft]
+  (when (twilio-enabled?)
+    (twilio/with-auth (System/getenv "TWILIO_SID")
+                      (System/getenv "TWILIO_AUTH_TOKEN")
+      (twilio/send-sms
+        {:From (System/getenv "TWILIO_FROM_NUMBER")
+         :To   (System/getenv "TWILIO_TO_NUMBER")
+         :Body (format "A new %s-player draft just started"
+                       (:player-count (:config draft)))}))))
+
 (defn new-draft!
   [req]
   (let [draft-id (util/random-uuid)
@@ -35,6 +54,7 @@
     (if (> (count (:drafts @state)) 1000)
       (throw (Exception. "This is why we can't have nice things"))
       (do (swap! state assoc-in [:drafts draft-id] draft)
+          (text! draft)
           (response {:draft-id draft-id
                      :players  (for [[player [seat-id _]] (zipmap (:player-names (:config draft))
                                                                   (:seats draft))]
