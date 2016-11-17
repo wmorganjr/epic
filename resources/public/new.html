@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>NEW DRAFT: Epic Draft Club</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.15/clipboard.min.js"></script>
+<script type='text/javascript'>
+
+function parse() {
+  return $("textarea").val().split("\n");
+}
+
+function newDraft(draft) {
+  var seats = $("<ul>");
+  $.each(draft.players, function(idx, p) {
+    var li = $("<li>");
+    li.append($("<a>").attr("href", p.url).text(p.player));
+    li.append($("<button>Copy Link to Clipboard for " + p.player + "</button>").attr("data-clipboard-text", p.url));
+    li.appendTo(seats);
+  });
+  return seats;
+}
+
+$(function() {
+  new Clipboard('button');
+  $("textarea").keydown(function() {
+    var players = parse();
+    $("#summary").text("Drafting with " + players.length + " players: " + players.join(","));
+  });
+  $("button").click(function() {
+    $("button").attr("disabled","disabled");
+    $.post("/drafts/new", {
+      "set-names": $("#set-names").val(),
+      "pack-size": $("#pack-size").val(),
+      "player-names": parse().join(",")
+    }, function(response) {
+      $("body").append("<h1>Draft Started</h1>");
+      $("body").append(newDraft(response));
+    }, "json");
+  });
+});
+</script>
+</head>
+<body>
+<h1><a href='/about.html'>Epic Draft Club</a></h1>
+<h2>Start a New Draft</h2>
+<p><strong>Sets: </strong><input id='set-names' type='text' value='Set 1,Tyrants,Uprising'></p>
+<p>Currently supported sets are "Set 1", "Tyrants" and "Uprising"</p>
+<p><strong>Pack Size: </strong><input id='pack-size' type='text' value='12'></p>
+<p><strong>Players: </strong><textarea rows=8></textarea></p>
+<p>Put each player's name on a new line.</p>
+<div id='summary'></div>
+<button>Start Draft</button>
+</body>
+</html>
