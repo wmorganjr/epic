@@ -2,7 +2,7 @@
   (:require [ring.middleware.keyword-params :refer [wrap-keyword-params]]
             [ring.middleware.params         :refer [wrap-params]]
             [ring.middleware.json           :refer [wrap-json-response]]
-            [ring.util.response             :refer [response]]
+            [ring.util.response             :refer [response redirect]]
             [compojure.route                :as route]
             [compojure.core                 :refer :all]
             [clojure.string                 :as string]
@@ -97,7 +97,8 @@
   (GET "/drafts/:draft-id/seats/:seat-id/picks" [] get-picks)
   (GET "/drafts/:draft-id/seats/:seat-id/status" [] status)
   (POST "/drafts/:draft-id/seats/:seat-id/pick" [] make-pick!)
-  (route/resources "/"))
+  (route/resources "/")
+  (GET "/" [] (redirect "/about.html")))
 
 (def app
   (-> my-routes
