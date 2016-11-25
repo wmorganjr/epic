@@ -181,7 +181,7 @@ time, my first time actually playing the deck was round 5 of Worlds.
 
 At this point we didn't know anything about the Kark decks. There was buzz
 about it at the tournament site, but we didn't have a list, and we thought
-intuitively that a deck that relied on playing several life gain cards and a
+intuitively that a deck that relied on playing several health gain cards and a
 Loyalty X champion would be weak to discard.
 
 ## LCQ Results
@@ -292,7 +292,7 @@ with Knight of Shadows, and he discarded Ceasefire, and played another
 Ceasefire at the end of my turn. On my following turn I used Amnesia to play
 around recylers and attacked. When he Drain Essenced the Knight, I knew I
 was in good shape. In my testing, taking 9 in that situation was the correct
-play. In this matchup, both life totals are irrelevant. What matters are
+play. In this matchup, both health totals are irrelevant. What matters are
 the hand sizes, and I'm thrilled to get one card out of his hand and one into
 my discard pile where a Necromancer Lord can find it later. A turn or two
 later he played his third Cease Fire and his third Blind Faith, and from
@@ -379,7 +379,7 @@ game against a skilled opponent in this situation means that sooner or later
 you're going to lose. Strategically, what I'm trying to do is create
 asymmetries in the position. That means if I'm down a few cards, I see if I can
 trade more cards for a board or health advantage. If he's got big champions, I
-try to make tokens. And if he's pressuring my life total, I'm trying to judge
+try to make tokens. And if he's pressuring my health total, I'm trying to judge
 how low I can go while drawing cards, and play as the control deck.
 
 If you have an Inner Peace in hand, and your opponent has two burn cards, it's
@@ -461,7 +461,7 @@ uphill battle. Mercifully John already had the Kark so it was a quick game.
 
 #### Game 5
 
-I had a pretty weak start to game 5. I mulliganned four cards, then a Surprise
+I had a pretty weak start to game 5. I mulliganed four cards, then a Surprise
 Attack into MGH into Thought Plucker left me with a hand of Zannos, 2x Thirst,
 Hurricane, Erase, and Raxxa's Curse. I chose to Erase the MGH to play around
 an Inheritance, but as a plan I think that's just too slow, and Inheritance
@@ -502,7 +502,7 @@ clever how Gabriel's and Jason's decks played only two copies of Kark, but how
 much more clever was it of John to play three, and always have one against
 other Kark decks? We might see the rock, paper, scissors of the metagame
 reach the point where Kark decks tune for the mirror so heavily that they
-started to lose to the field, which loses to the more standard Kark decks.
+start to lose to the field, which loses to the more standard Kark decks.
 
 That would be sad. My intuition would be that the problem would lie somewhere
 around Ceasefire, Fumble, and Blind Faith: champions that recycle are OK, but
@@ -540,13 +540,15 @@ Congratulations to John Tatian, as solid a player as I faced over the weekend.
 Even though I came up short, I can't say that he deserved it any less than I
 did.
 
-Thanks to Jon Lewis for driving me around all weekend, and my to dad for giving
+Thanks to Jon Lewis for driving me around all weekend, and to my dad for giving
 me a place to sleep. Thanks, finally, to Rob Dougherty, for giving us Epic and
 running the whole show, with a head cold, and making sure everybody had what
-they needed to make the weekened a success.
+they needed to make the weekend a success.
 
 I'll be taking a short break from Epic to recover, but I'll be back before you
 know it. Looking forward to seeing everyone at next year's Worlds, or sooner.
+
+Will
 
 ## Contact
 
