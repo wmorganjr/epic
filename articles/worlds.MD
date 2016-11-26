@@ -222,10 +222,10 @@ and Dave Shiels, who I beat in extra turns.
 
 I went into the constructed portion of the tournament with a 2-1-1 record,
 then promptly lost a game to Jonah Acosta's demons. I came back to win that
-match, though, and won a straightforward two-game match against burn in round
-6. Winning two rounds back-to-back helped me to calm down, and all of a sudden
-I was in contention. In round 7 Jon and I got both the feature matches, and won
-against Wild decks.
+match, though, and won a straightforward two-game match against Nathan
+Overbay's burn in round 6. Winning two rounds back-to-back helped me to calm
+down, and all of a sudden I was in contention. In round 7 Jon and I got both
+the feature matches, and won against Wild decks.
 
 ## The Kark Plan
 
