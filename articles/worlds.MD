@@ -95,16 +95,6 @@ Lewis, who I've been friends with since 6th grade, and who would end up top
 8ing along with me. We taught Jon the game on Thursday, and he qualified in
 a constructed LCQ.
 
-There was apparently a funny moment during Jon's interview with Rob, after I
-had beaten him in our semifinals match. Rob asked when he had learned the game,
-and Jon starts, "Thursday. Actually, Will Morgan taught me..." Jon had
-intended it to be an interesting segue to the finals match, but it came out a
-little bit like "haha bro ur game's so easy!" Rob then looks straight into the
-camera, explaining how lots of competitive players have put a lot of time into
-practicing, and there's a great depth of strategy to the game, etc. But I don't
-think Jon's performance detracts from the strategic depth of Epic at all. He
-had, after all, played the 2009 version of the game along with me.
-
 If anyone could pick up the game on Thursday and top 8, it would be Jon, and
 not just because he's an ultra-competitive crusher, though that helped. The
 difference is in the quality of the playtesting. There's practicing, and then
