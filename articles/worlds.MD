@@ -2,6 +2,10 @@
 
 ### Will Morgan, Finalist
 
+Hi! I'm Will, and I played in the Epic Card Game 2016 World Championship. I
+ended up making it to the finals, where I played John Tatian in a five-game
+match. Here's how I got there, and what happened in the championship match.
+
 ## In the Beginning
 
 I played the old Epic TCG back in 2009. Although the fundamental concepts were
