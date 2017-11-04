@@ -40,6 +40,7 @@
             <reverse-related>Spawning Demon</reverse-related>
             <reverse-related>Demonic Rising</reverse-related>
             <reverse-related>Rift Summoner</reverse-related>
+            <reverse-related>Dirge of Scara</reverse-related>
         </card>
         <card>
             <name>Human</name>
@@ -67,6 +68,9 @@
             <reverse-related>Gladius, the Defender</reverse-related>
             <reverse-related>Martial Law</reverse-related>
             <reverse-related>Village Protector</reverse-related>
+            <reverse-related>Ambush Party</reverse-related>
+            <reverse-related>Cast Out</reverse-related>
+            <reverse-related>Helena's Chosen</reverse-related>
         </card>
         <card>
             <name>Wolf</name>
@@ -88,6 +92,7 @@
             <reverse-related>Knight of Elara</reverse-related>
             <reverse-related>Hunting Pack</reverse-related>
             <reverse-related>Den Mother</reverse-related>
+            <reverse-related>Keira, Wolf Caller</reverse-related>
         </card>
         <card>
             <name>Zombie</name>
@@ -111,6 +116,7 @@
             <reverse-related>Zealous Necromancer</reverse-related>
             <reverse-related>Zannos, Corpse Lord</reverse-related>
             <reverse-related>Plague Zombies</reverse-related>
+            <reverse-related>Krieg, Dark One's Chosen</reverse-related>
         </card>
     </cards>
 </cockatrice_carddatabase>

@@ -1,4 +1,535 @@
 {
+  "PAN": {
+    "name": "Pantheon",
+    "code": "PAN",
+    "cards": [
+      {
+        "name": "Fairy Entrancer",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Fairy",
+        "power": 2,
+        "toughness": 7,
+        "text": "Airborne - Blitz\n\nLoyalty 2 and/or when this card attacks → Put a +1 {offense} +1 {defense} counter on this card.\n\nRemove two counters from this card: Gain control of target champion."
+      },
+      {
+        "name": "Gareth’s Juggernaut",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Construct",
+        "power": 5,
+        "toughness": 5,
+        "text": "Loyalty 2 → Blitz\n\n{sage} → This card gains unbreakable this turn."
+      },
+      {
+        "name": "Master Forcemage",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Human",
+        "power": 4,
+        "toughness": 7,
+        "text": "Ambush - Blitz\n\n{sage} → Prepare this card.\n\n{expend} : Deal 2 damage to each of up to two targets."
+      },
+      {
+        "name": "Forbidden Research",
+        "manaCost": 1,
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "text": "Draw two cards.\n\n{evil} → You may break a champion you control. If you do, Recall."
+      },
+      {
+        "name": "Run Riot",
+        "manaCost": 1,
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "text": "Draw two cards.\n- OR -\nIf it is your turn, you may break target champion and your evil champions get +3 {offense} and +3 {defense} this turn."
+      },
+      {
+        "name": "Scarred Priestess",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "Subtype": "Human",
+        "power": 9,
+        "toughness": 7,
+        "text": "Loyalty 2 → Blitz.\n\n{evil} → Prepare this card.\n\n{expend} : Break a champion you control: If you do, break target champion."
+      },
+      {
+        "name": "Brak, Fist of Lashnok",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Minotaur",
+        "power": 14,
+        "toughness": 11,
+        "text": "Unblockable by champions with {offense} less than this card’s {offense}.\n\nLoyalty 2 → Draw a card. This card gains unbreakable this turn."
+      },
+      {
+        "name": "Lashnok’s Will",
+        "manaCost": 1,
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "text": "Draw two cards.\n- OR -\nTarget champion gets +5 {offense} and +5 {defense} this turn. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay wild costs."
+      },
+      {
+        "name": "Rybas, Canopy Sniper",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Elf",
+        "power": 5,
+        "toughness": 2,
+        "text": "Loyalty 2 → Blitz\n\n{expend} : Deal 3 damage to a target."
+      },
+      {
+        "name": "Hand of Angeline",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "Subtype": "Angel",
+        "power": 2,
+        "toughness": 3,
+        "text": "Airborne\n\n{good} → Recycle"
+      },
+      {
+        "name": "New Dawn",
+        "manaCost": 1,
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "text": "Draw two cards.\n- OR -\nIf it is your turn, banish all champions and then (starting with you) each player may put a champion from their hand into play."
+      },
+      {
+        "name": "Silver Wing Savior",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "Subtype": "Angel",
+        "power": 7,
+        "toughness": 7,
+        "text": "Airborne - Blitz\n\nTribute → You may return a good card from your discard pile to your hand."
+      },
+      {
+        "name": "Angeline’s Favor",
+        "manaCost": 0,
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "text": "Target Champion gains airborne, +2 {offense} and +2 {defense} this turn.\n- OR -\n{1} : Draw two cards."
+      },
+      {
+        "name": "Silver Wing Guardian",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "Subtype": "Angel",
+        "power": 6,
+        "toughness": 6,
+        "text": "Airborne - Ambush - Righteous\n\nTribute → Gain 4 health"
+      },
+      {
+        "name": "Silver Wing Lancer",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "Subtype": "Human Knight",
+        "power": 10,
+        "toughness": 8,
+        "text": "Blitz - Unbanishable\n\nUnblockable by champions with {offense} less than this card’s {offense} ."
+      },
+      {
+        "name": "Force Lance",
+        "manaCost": 0,
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "text": "Target champion gets +2 {offense} this turn.\n\nIf it is your turn, it also gains unbreakable this turn.\n\nRecycle"
+      },
+      {
+        "name": "Steel Titan",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Construct",
+        "power": 13,
+        "toughness": 9,
+        "text": "Untargetable\n\nUnblockable by champions with {offense} less than this card’s {offense}."
+      },
+      {
+        "name": "Teleport",
+        "manaCost": 1,
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "text": "Remove target champion from play, then return it to play prepared (as a new champion) under its owner’s control. It gains Blitz this turn.\n\nYou may expend that champion. If you do, draw a card."
+      },
+      {
+        "name": "Herald of Scara",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "Subtype": "Demon",
+        "power": 9,
+        "toughness": 7,
+        "text": "Airborne\n\nTribute → Reveal the top three cards of your deck. You may choose an evil card among them and put it into your hand. Banish the rest."
+      },
+      {
+        "name": "Scara’s Will",
+        "manaCost": 1,
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "text": "Draw two cards\n- OR -\nIf it is your turn, target player breaks a champion they control if able. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay evil costs."
+      },
+      {
+        "name": "Scarred Cultist",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "Subtype": "Human",
+        "power": 6,
+        "toughness": 5,
+        "text": "Loyalty 2 → Return target {1} champion from your discard pile to your hand."
+      },
+      {
+        "name": "Flames of Furios",
+        "manaCost": 1,
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "text": "Draw two cards\n- OR -\nDeal 7 damage to each champion. Deal damage to each player equal to the number of their champions broken this way."
+      },
+      {
+        "name": "Keira, Wolf Caller",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Human",
+        "power": 4,
+        "toughness": 4,
+        "text": "Ambush - Blitz\n\nYour wolf tokens have blitz, +1 {offense} and +1 {defense}.\n\nTribute → Put two wolf tokens into play."
+      },
+      {
+        "name": "Stampeding Einiosaurus",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Dinosaur",
+        "power": 11,
+        "toughness": 11,
+        "text": "Blitz - Breakthrough"
+      },
+      {
+        "name": "Ambush Party",
+        "manaCost": 1,
+        "colors": [
+          "White"
+        ],
+        "type": "Human Event",
+        "text": "Put three human tokens into play.\n\nYour human champions gain Blitz this turn.\n\nYour good champions get +2 {offense} this turn.\n\nDraw a card."
+      },
+      {
+        "name": "Cast Out",
+        "manaCost": 0,
+        "colors": [
+          "White"
+        ],
+        "type": "Human Event",
+        "text": "Put two human tokens into play. Banish target champion with {defense} less than or equal to the number of humans you have in play.\n- OR -\n{1} : Draw two cards."
+      },
+      {
+        "name": "Helena’s Chosen",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "Subtype": "Human",
+        "power": 6,
+        "toughness": 5,
+        "text": "Tribute → Draw a card\n\nLoyalty 2 → Blitz.\n\nYour other good champions have +2 {offense}.\n\n{expend} : Put two human tokens into play."
+      },
+      {
+        "name": "Alchemist Assassin",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Human",
+        "power": 3,
+        "toughness": 1,
+        "text": "Blitz - Unblockable\n\n{1}: This card gets +7 {offense} this turn."
+      },
+      {
+        "name": "Gareth’s Will",
+        "manaCost": 1,
+        "colors": [
+          "Blue"
+        ],
+        "type": "Event",
+        "text": "Draw two cards.\n- OR -\nIf it is your turn, return target champion to its owner’s hand. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay sage costs."
+      },
+      {
+        "name": "Mystic Researcher",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Human Mage",
+        "power": 3,
+        "toughness": 2,
+        "text": "Tribute → Draw a card.\n\nLoyalty 2 → Blitz\n\n{expend} : Draw a card."
+      },
+      {
+        "name": "Bruger, the Pathfinder",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Elf",
+        "power": 5,
+        "toughness": 6,
+        "text": "Ambush - Unblockable\n\nTribute and/or when this card damages an opponent → Your Wild champions get +3 {offense} and +3 {defense} this turn."
+      },
+      {
+        "name": "Herald of Lashnok",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Beastman",
+        "power": 8,
+        "toughness": 6,
+        "text": "Blitz - Breakthrough\n\nTribute → Reveal the top three cards of your deck. You may choose a wild card from among them and put it into your hand. Banish the rest."
+      },
+      {
+        "name": "Hunting Pterosaur",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Dinosaur",
+        "power": 4,
+        "toughness": 3,
+        "text": "Ambush - Airborne\n\nTribute → You may break target champion with 2 {defense} or less."
+      },
+      {
+        "name": "Dirge of Scara",
+        "manaCost": 1,
+        "colors": [
+          "Black"
+        ],
+        "type": "Demon Event",
+        "text": "Draw two cards.\n\n{1} : Recall.\n\nWhen this card leaves your discard pile → Put a demon token into play."
+      },
+      {
+        "name": "Steed of Zaltessa",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "Subtype": "Demon",
+        "power": 6,
+        "toughness": 7,
+        "text": "Airborne - Blitz\n\nLoyalty 2 → Deal 5 damage to target player.\n\nWhen this card deals damage to a player → They cannot gain health this turn."
+      },
+      {
+        "name": "Necromancer Apprentice",
+        "manaCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "Subtype": "Human",
+        "power": 1,
+        "toughness": 1,
+        "text": "Blitz\n\n{expend} : Banish target card from any discard pile. If that card is a champion, put a zombie token into play."
+      },
+      {
+        "name": "Fiery Demise",
+        "manaCost": 1,
+        "colors": [
+          "Green"
+        ],
+        "type": "Event",
+        "text": "Deal 3 damage to a target.\n\nDraw two cards."
+      },
+      {
+        "name": "Greater Lightning Wurm",
+        "manaCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Wurm",
+        "power": 12,
+        "toughness": 10,
+        "text": "Breakthrough\n\nLoyalty 2 → Deal 6 damage to a target."
+      },
+      {
+        "name": "Kalani, Woodreader",
+        "manaCost": "0",
+        "colors": [
+          "Green"
+        ],
+        "type": "Champion",
+        "Subtype": "Elf",
+        "power": 5,
+        "toughness": 5,
+        "text": "Blitz\n\nOpponents cannot gain health."
+      },
+      {
+        "name": "Herald of Angeline",
+        "manaCost": "1",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "Subtype": "Angel",
+        "power": 7,
+        "toughness": 5,
+        "text": "Airborne - Righteous\n\nTribute → Reveal the top three cards of your deck. You may choose a good card among them and put it into your hand. Banish the rest."
+      },
+      {
+        "name": "Angeline’s Will",
+        "manaCost": 1,
+        "colors": [
+          "White"
+        ],
+        "type": "Event",
+        "text": "Gain 10 health\n- OR -\nIf it’s your turn, banish target expended champion. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay for good costs."
+      },
+      {
+        "name": "Knight of the Dawn",
+        "manaCost": "0",
+        "colors": [
+          "White"
+        ],
+        "type": "Champion",
+        "Subtype": "Human Knight",
+        "power": 6,
+        "toughness": 3,
+        "text": "Blitz\n\nTribute → You may banish target evil token champion."
+      },
+      {
+        "name": "Scara’s Gift",
+        "manaCost": 0,
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "text": "Deal 2 damage to target player.\n\nGain 2 health.\n\n{evil} → You may banish two other cards in your discard pile. If you do, Recall."
+      },
+      {
+        "name": "Krieg, Dark One’s Chosen",
+        "manaCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "type": "Champion",
+        "Subtype": "Human Mage",
+        "power": 8,
+        "toughness": 8,
+        "text": "Tribute → Put two zombie tokens into play.\n\n{evil} → Put a zombie token into play. Your zombie tokens gain blitz, +1 {offense} and +1 {defense} this turn."
+      },
+      {
+        "name": "Dark One’s Fury",
+        "manaCost": 1,
+        "colors": [
+          "Black"
+        ],
+        "type": "Event",
+        "text": "Draw two cards.\n- OR -\nIf it is your turn, break all non-evil champions."
+      },
+      {
+        "name": "Erwin, Architect of War",
+        "manaCost": "0",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Human",
+        "power": 1,
+        "toughness": 5,
+        "text": "Tribute → Recycle\n\nThis card has all alignments, even while it is in your hand, deck, or discard pile.(During deck construction, it is only sage.)"
+      },
+      {
+        "name": "Ethereal Dragon",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Dragon Spirit",
+        "power": 6,
+        "toughness": 8,
+        "text": "Airborne - Ambush - Untargetable"
+      },
+      {
+        "name": "Scrap Golem",
+        "manaCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "type": "Champion",
+        "Subtype": "Construct",
+        "power": 6,
+        "toughness": 6,
+        "text": "Loyalty 2 → Blitz\n\n{expend} : Banish a card from your discard pile: Put a scrap token into play.\n{1}:Recall"
+      }
+    ]
+  },
   "UPR": {
     "name": "Uprising",
     "code": "UPR",
