@@ -12,7 +12,7 @@
         "type": "Champion",
         "Subtype": "Fairy",
         "power": 2,
-        "toughness": 7,
+        "toughness": 1,
         "text": "Airborne - Blitz\n\nLoyalty 2 and/or when this card attacks → Put a +1 {offense} +1 {defense} counter on this card.\n\nRemove two counters from this card: Gain control of target champion."
       },
       {
@@ -842,7 +842,7 @@
         ],
         "type": "Champion",
         "power": 10,
-        "toughness": 10,
+        "toughness": 3,
         "text": "Tribute → Put two human tokens into play.\nWhile you have any human tokens in play, this card is unbreakable and can't be damaged.",
         "Subtype": "HUMAN",
         "Gem Color (cube rarity)": "Common",
