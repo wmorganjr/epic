@@ -1040,7 +1040,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Deal 5 damage to target player. Draw a card.\n\n- OR -\nDeal 9 damage to each {1} champion.",
+        "text": "Deal 5 damage to target player. Draw a card.\n- OR -\nDeal 9 damage to each {1} champion.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Nichole Balsley",
         "Set Name": "Uprising"
@@ -1080,7 +1080,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Your champions gain breakthrough this turn. Put two +1 {offense} +1 {defense} counters on each of them.\n\n- OR -\nTarget champion gains breakthrough this turn. Put five +1 {offense} +1 {defense} counters on it. Draw a card.",
+        "text": "Your champions gain breakthrough this turn. Put two +1 {offense} +1 {defense} counters on each of them.\n- OR -\nTarget champion gains breakthrough this turn. Put five +1 {offense} +1 {defense} counters on it. Draw a card.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Dhennis Balontong",
         "Set Name": "Uprising"
@@ -1432,7 +1432,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Banish all {0} champions. Draw a card.\n\n- OR -\n\nIf it is your turn, banish all {1} champions.",
+        "text": "Banish all {0} champions. Draw a card.\n- OR -\nIf it is your turn, banish all {1} champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Ina Wong",
         "Set Name": "Tyrants"
@@ -1484,7 +1484,7 @@
           "Black"
         ],
         "type": "Demon Tyrant Event",
-        "text": "Draw two cards.\n\n- OR -\n\nIf it is your turn, break all non-demon champions.",
+        "text": "Draw two cards.\n- OR -\nIf it is your turn, break all non-demon champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Bramasta Aji",
         "Set Name": "Tyrants"
@@ -1496,7 +1496,7 @@
           "Black"
         ],
         "type": "Zombie Event",
-        "text": "Put four zombie tokens into play.\n\n- OR -\n\nIf it is your turn, break all champions.",
+        "text": "Put four zombie tokens into play.\n- OR -\nIf it is your turn, break all champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Johnny Morrow",
         "Set Name": "Tyrants"
@@ -1754,7 +1754,7 @@
           "Black"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n\n- OR -\n\nBreak target {1} champion you control. If you do, break up to two target champions.",
+        "text": "Draw two cards.\n- OR -\nBreak target {1} champion you control. If you do, break up to two target champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Michael J Williams",
         "Set Name": "Tyrants"
@@ -1820,7 +1820,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "If it is your turn, break target damaged champion.\n\n- OR -\n\n{1}: Draw two cards.",
+        "text": "If it is your turn, break target damaged champion.\n- OR -\n{1}: Draw two cards.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "L.Sean",
         "Set Name": "Tyrants"
@@ -1922,7 +1922,7 @@
           "Blue"
         ],
         "type": "Tyrant Event",
-        "text": "Draw two cards.\n\n- OR -\n\nIf it is your turn, return up to two target champions to their owner's hands and draw a card.",
+        "text": "Draw two cards.\n- OR -\nIf it is your turn, return up to two target champions to their owner's hands and draw a card.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Dylan Safford",
         "Set Name": "Tyrants"
@@ -1960,7 +1960,7 @@
           "Blue"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n\n- OR -\n\nPlay an event from your discard pile without paying its cost, then banish it and this card.",
+        "text": "Draw two cards.\n- OR -\nPlay an event from your discard pile without paying its cost, then banish it and this card.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Bramasta Aji",
         "Set Name": "Tyrants"
@@ -1972,7 +1972,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Deal 5 damage to target champion.\n\n- OR -\n\n{1}: Draw two cards.",
+        "text": "Deal 5 damage to target champion.\n- OR -\n{1}: Draw two cards.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Trevor Smith",
         "Set Name": "Tyrants"
