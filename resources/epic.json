@@ -1693,7 +1693,7 @@
         "type": "Dinosaur Champion",
         "power": 7,
         "toughness": 7,
-        "text": "Tribute → You may pay {1}. If you do, draw a card.",
+        "text": "Tribute → You may pay {1}. If you do, draw a card.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Sarah McCulloch",
         "Set Name": "Tyrants"
@@ -1729,7 +1729,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Each opposing champion loses its powers and abilities this turn. (For example, they would lose airborne.)  Recycle",
+        "text": "Each opposing champion loses its powers and abilities this turn. (For example, they would lose airborne.) Recycle",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Johnny Morrow",
         "Set Name": "Tyrants"
@@ -1769,7 +1769,7 @@
         "type": "Dragon Tyrant Champion",
         "power": 9,
         "toughness": 9,
-        "text": "Airborne  Loyalty 2 → Blitz \n When this card attacks → Deal 3 damage to each of the defending player's champions.",
+        "text": "Airborne  Loyalty 2 → Blitz \n When this card attacks → Deal 3 damage to each of the defending player's champions.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Apsara",
         "Set Name": "Tyrants"
@@ -1783,7 +1783,7 @@
         "type": "Dragon Champion",
         "power": 7,
         "toughness": 7,
-        "text": "Ambush\nAirborne  Loyalty 2 → Draw a card. \n Draka does not negotiate.",
+        "text": "Ambush\nAirborne Loyalty 2 → Draw a card. \n Draka does not negotiate.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Apsara",
         "Set Name": "Tyrants"
@@ -1835,7 +1835,7 @@
         "type": "Spirit Champion",
         "power": 11,
         "toughness": 9,
-        "text": "Tribute → Draw a card.  {wild} → Deal 4 damage to target champion. \n \"Well done.\" - Shahara, fire shaman",
+        "text": "Tribute → Draw a card.  {wild} → Deal 4 damage to target champion. \n \"Well done.\" - Shahara, fire shaman",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Ina Wong",
         "Set Name": "Tyrants"
@@ -1873,7 +1873,7 @@
         "type": "Dinosaur Champion",
         "power": 7,
         "toughness": 8,
-        "text": "Ambush\nBlitz\nBreakthrough  Tribute → Your dinosaur champions get +3 {offense} and +3 {defense} this turn.",
+        "text": "Ambush\nBlitz\nBreakthrough  Tribute → Your dinosaur champions get +3 {offense} and +3 {defense} this turn.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Michael J Williams",
         "Set Name": "Tyrants"
@@ -1949,7 +1949,7 @@
         "type": "Construct Champion",
         "power": 9,
         "toughness": 4,
-        "text": "Unblockable  Tribute → Draw a card. Each opponent discards a card. \n Helion's servant; your nightmare.",
+        "text": "Unblockable  Tribute → Draw a card. Each opponent discards a card. \n Helion's servant; your nightmare.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Grant Griffin",
         "Set Name": "Tyrants"
@@ -1987,7 +1987,7 @@
         "type": "Human Tyrant Champion",
         "power": 10,
         "toughness": 10,
-        "text": "If an opponent causes you to discard this card, put it into play instead.  Tribute → You may banish up to three target token champions. \n Loyalty 2 → Draw a card.",
+        "text": "If an opponent causes you to discard this card, put it into play instead.  Tribute → You may banish up to three target token champions. \n Loyalty 2 → Draw a card.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Ina Wong",
         "Set Name": "Tyrants"
