@@ -70,7 +70,7 @@
             <reverse-related>Village Protector</reverse-related>
             <reverse-related>Ambush Party</reverse-related>
             <reverse-related>Cast Out</reverse-related>
-            <reverse-related>Helena's Chosen</reverse-related>
+            <reverse-related>Helena’s Chosen</reverse-related>
         </card>
         <card>
             <name>Wolf</name>
@@ -116,7 +116,7 @@
             <reverse-related>Zealous Necromancer</reverse-related>
             <reverse-related>Zannos, Corpse Lord</reverse-related>
             <reverse-related>Plague Zombies</reverse-related>
-            <reverse-related>Krieg, Dark One's Chosen</reverse-related>
+            <reverse-related>Krieg, Dark One’s Chosen</reverse-related>
         </card>
     </cards>
 </cockatrice_carddatabase>
