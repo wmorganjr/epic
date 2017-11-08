@@ -1420,7 +1420,7 @@
         "type": "Human Champion",
         "power": 3,
         "toughness": 4,
-        "text": "Tribute and/or {good} → Put a human token into play.",
+        "text": "Your other human champions have +1 {offense}\n\nTribute and/or {good} → Put a human token into play.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Ina Wong",
         "Set Name": "Tyrants"
@@ -1484,7 +1484,7 @@
           "Black"
         ],
         "type": "Demon Tyrant Event",
-        "text": "Draw two cards.\n\n- OR -\n\nIf it is your turn, break\nall non-demon champions.",
+        "text": "Draw two cards.\n\n- OR -\n\nIf it is your turn, break all non-demon champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Bramasta Aji",
         "Set Name": "Tyrants"
@@ -1536,7 +1536,7 @@
         "type": "Human Champion",
         "power": 5,
         "toughness": 9,
-        "text": "Ambush  Tribute and/or {good} → Gain 3 health. \n Your champions not named Royal Escort have untargetable.",
+        "text": "Ambush  Tribute and/or {good} → Gain 3 health.\n\nYour champions not named Royal Escort have untargetable.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Gialer Liew",
         "Set Name": "Tyrants"
@@ -1548,7 +1548,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Gain 5 health.  Recycle \n \"Pledge your sword to Angeline and she will grant you strength.",
+        "text": "Gain 5 health. Recycle",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Trevor Smith",
         "Set Name": "Tyrants"
@@ -1562,7 +1562,7 @@
         "type": "Imp Champion",
         "power": 2,
         "toughness": 3,
-        "text": "Ambush\nBlitz\nUnblockable  {sage} → You may return this card to your hand.",
+        "text": "Ambush\nBlitz\nUnblockable\n{sage} → You may return this card to your hand.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Dylan Safford",
         "Set Name": "Tyrants"
@@ -1602,7 +1602,7 @@
         "type": "Human Mage Champion",
         "power": 6,
         "toughness": 4,
-        "text": "Ambush\nUnblock able  Loyalty 2 → You may return target champion to its owner's hand. \n {sage} → You may return target {0} champion to its owner's hand.",
+        "text": "Ambush\nUnblockable\n\nLoyalty 2 → You may return target champion to its owner's hand. \n {sage} → You may return target {0} champion to its owner's hand.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Gialer Liew",
         "Set Name": "Tyrants"
@@ -1628,7 +1628,7 @@
         "type": "Human Champion",
         "power": 2,
         "toughness": 1,
-        "text": "Unblockable  Tribute → Draw two cards. \n You are untargetable.",
+        "text": "Unblockable\nTribute → Draw two cards.\n\nYou are untargetable.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Ina Wong",
         "Set Name": "Tyrants"
@@ -1640,7 +1640,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Draw two cards.\nPut two human tokens into play.  \"Good news never comes this fast.\" - Markus, Watch Captain",
+        "text": "Draw two cards.\nPut two human tokens into play.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Gialer Liew",
         "Set Name": "Tyrants"
@@ -1664,7 +1664,7 @@
           "Green"
         ],
         "type": "Wolf Event",
-        "text": "Put a wolf token into play.  Deal 2 damage to target champion. \n Recycle",
+        "text": "Put a wolf token into play.\nDeal 2 damage to target champion.\nRecycle",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Dylan Safford",
         "Set Name": "Tyrants"
@@ -1678,7 +1678,7 @@
         "type": "Human Champion",
         "power": 3,
         "toughness": 4,
-        "text": "Ambush \nTribute → Draw a card.\nWhen another non-zombie champion is broken {a} If this card is still in play, put a zombie token into play.",
+        "text": "Ambush \nTribute → Draw a card.\nWhen another non-zombie champion is broken → If this card is still in play, put a zombie token into play.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Bramasta Aji",
         "Set Name": "Tyrants"
@@ -1934,7 +1934,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Your human tokens gain blitz, unbreakable, and +1 {offense} this turn.",
+        "text": "Put four human tokens into play. Your human tokens gain blitz, unbreakable, and +1 {offense} this turn.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Gialer Liew",
         "Set Name": "Tyrants"
@@ -2662,7 +2662,7 @@
         "type": "Human Champion",
         "power": 6,
         "toughness": 8,
-        "text": "Tribute → You may banish target champion.\n\n\"None shall pass.",
+        "text": "Tribute → You may banish target champion.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Souveraine",
         "Set Name": "Set 1"
@@ -3048,7 +3048,7 @@
         "type": "Ogre Champion",
         "power": 4,
         "toughness": 3,
-        "text": "Tribute → Recycle\n\nOgres' skill at battle is matched only by their love of coin.",
+        "text": "Tribute → Recycle",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Jaan-Paul van Eeden",
         "Set Name": "Set 1"
