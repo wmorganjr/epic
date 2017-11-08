@@ -541,8 +541,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 7 damage to each opposing player.\n- OR -\nDraw a card. Deal 7 damage to target champion.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -571,8 +569,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 3 damage to target champion.\nGain 3 health.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -586,8 +582,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put five human tokens into play.\n— OR —\nBanish all champions. If it's an opponent's turn, that player puts four human tokens into play.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -691,8 +685,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put three wolf tokens into play.\nTarget a champion. You may deal 2 damage to it for each wolf you have in play.",
         "Subtype": "WOLF",
         "Gem Color (cube rarity)": "Common",
@@ -706,8 +698,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Target champion gets +4 {offense} +4 {defense} this turn.\nRecycle",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -721,8 +711,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nBreak target champion. The player whose turn it is may return a champion card from their discard pile to their hand.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -736,8 +724,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw 2 cards.\n- OR -\nEach opposing champion gets -5 {offense} this turn. Draw a card.\n- OR -\nEach opposing champion gets -10 {offense} this turn.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -751,8 +737,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw 2 cards.\n- OR -\nReturn each champion to its owner's hand. The player whose turn it is draws a card.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -796,8 +780,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw 2 cards.\nBanish target player's discard pile.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -871,8 +853,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 2 damage to a target.\nRecycle",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -886,8 +866,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nBreak all champions. For each champion broken this way, its controller puts a demon token into play. Demon champions gain blitz this turn.",
         "Subtype": "DEMON",
         "Gem Color (cube rarity)": "Common",
@@ -961,8 +939,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put three zombie tokens into play.\nThis turn, your zombies gain blitz and \"When this card is broken → Deal 2 damage to target player.\"",
         "Subtype": "ZOMBIE",
         "Gem Color (cube rarity)": "Common",
@@ -991,8 +967,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw a card. You may return target card from your discard pile to your hand.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1006,8 +980,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "If it is your turn, gain control of target {0} champion. Expend that champion.\n— OR —\n{1}: Draw two cards.",
         "Subtype": "SPIRIT",
         "Gem Color (cube rarity)": "Common",
@@ -1066,8 +1038,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nDraw a card. Your {0} champions gain righteous, +3 {offense} and +3 {defense} this turn..\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1141,8 +1111,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 5 daamge to target player. Draw a card.\n\n- OR -\nDeal 9 damage to each {1} champion.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1186,8 +1154,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Your champions gain breakthrough this turn. Put two +1 {offense} +1 {defense} counters on each of them.\n\n- OR -\nTarget champion gains breakthrough this turn. Put five +1 {offense} +1 {defense} counters on it. Draw a card..",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1231,8 +1197,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Discard a card. Draw a card.\nRecycle",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1267,8 +1231,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 5 damage to a target.\n{wild} → Recall\nWhen this card leaves your discard pile → Deal 2 damage each opponent.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1282,8 +1244,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\nYou may banish all token champions.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1327,8 +1287,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\nBreak a champion you control: Recall",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1372,8 +1330,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Banish two cards from your discard pile. If they are both sage, draw two cards. Otherwise, draw a card.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1387,8 +1343,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Target champion gains unbreakable and untargetable this turn.\nRecycle\n— OR —\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1432,8 +1386,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nIf it is your turn, banish all champions, then, starting with you, each player may put a champion from their hand into play.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1447,8 +1399,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nBreak target champion. The player whose turn it is gains health equal to its {defense}.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1477,8 +1427,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 7 damage to a target.\n\nAny player damaged by this card cannot gain health this turn.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1492,8 +1440,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Lose any amount of health and deal twice that much damage to target champion.\n— OR —\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1507,8 +1453,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Remove target champion from play, then return it to play (as a new champion) under its owner's control, either expended or prepared with blitz.\n\nDraw a card.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1588,8 +1532,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Banish all {0} champions. Draw a card.\n\n- OR -\n\nIf it is your turn, banish all {1} champions.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1633,8 +1575,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put a demon token into play, then break target {0} champion.\n\n{1}: Draw two cards.\n",
         "Subtype": "DEMON TYRANT",
         "Gem Color (cube rarity)": "Rare",
@@ -1648,8 +1588,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\n- OR -\n\nIf it is your turn, break\nall non-demon champions.\n",
         "Subtype": "DEMON TYRANT",
         "Gem Color (cube rarity)": "Common",
@@ -1663,8 +1601,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put four zombie tokens into play.\n\n- OR -\n\nIf it is your turn, break all champions.\n",
         "Subtype": "ZOMBIE",
         "Gem Color (cube rarity)": "Common",
@@ -1693,8 +1629,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put a human token into play.\nIt has blitz this turn.\nYour good champions get +2 {offense} this turn.\n\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1723,8 +1657,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Gain 5 health.  Recycle \n \"Pledge your sword to Angeline and she will grant you strength.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1753,8 +1685,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Target champion gets +5 {offense} and +5 {defense} this turn. Draw two cards.\n{wild} → You may banish this card from your discard pile. If you do, deal 6 damage to target champion.",
         "Subtype": "DRAGON",
         "Gem Color (cube rarity)": "Common",
@@ -1798,8 +1728,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Return target champion to its owner's hand. That player banishes a card from their hand.  Draw a card. \n Some doors should not be opened.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1828,8 +1756,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\nPut two human tokens into play.  \"Good news never comes this fast.\" - Markus, Watch Captain\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1843,8 +1769,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "If it is your turn, return target champion to its owner's hand.\n\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -1858,8 +1782,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put a wolf token into play.  Deal 2 damage to target champion. \n Recycle\n",
         "Subtype": "WOLF",
         "Gem Color (cube rarity)": "Common",
@@ -1903,8 +1825,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "For each card banished this way, reveal a card from the top of your deck. Put one of them into your hand and banish the rest.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1918,8 +1838,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Your champions gain breakthrough, +3 {offense} and +3 {defense} this turn.\n\nIf it is an opponent's turn, draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1933,8 +1851,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Each opposing champion loses its powers and abilities this turn. (For example, they would lose airborne.)  Recycle\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -1963,8 +1879,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\n- OR -\n\nBreak target {1} champion you control.\nIf you do, break up to two target champions.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2008,8 +1922,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 5 damage to each champion and player.\n\nIf it is your turn, deal 5 damage to each opposing champion and draw a card.\n",
         "Subtype": "DRAGON TYRANT",
         "Gem Color (cube rarity)": "Common",
@@ -2038,8 +1950,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "If it is your turn,\nbreak target damaged champion.\n\n- OR -\n\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -2068,8 +1978,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\nBanish target champion.\nThe player whose turn it is puts two human tokens into play.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2083,8 +1991,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Target champion gets -10 {offense} this turn.\nRecycle\n\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2113,8 +2019,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 4 damage to each attacking champion without airborne.\n\nPut two zombie tokens into play expended.\n",
         "Subtype": "ZOMBIE",
         "Gem Color (cube rarity)": "Common",
@@ -2128,8 +2032,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Gain 1 health for each champion card in target player's discard pile. Banish that discard pile.\n\n{1}: Draw two cards.\n",
         "Subtype": "VAMPIRE",
         "Gem Color (cube rarity)": "Common",
@@ -2158,8 +2060,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\n- OR -\n\nIf it is your turn, return up to two target champions to their owner's hands and draw a card.\n",
         "Subtype": "TYRANT",
         "Gem Color (cube rarity)": "Common",
@@ -2173,8 +2073,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Your human tokens gain blitz, unbreakable, and +1 {offense} this turn.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2203,8 +2101,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\n- OR -\n\nPlay an event from your discard pile without paying its cost, then banish it and this card.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2218,8 +2114,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 5 damage to target champion.\n\n- OR -\n\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2263,8 +2157,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Break target champion.\nEach player puts a zombie token into play.\n{evil} → You may banish this card from your discard pile. If you do, put three zombie tokens into play.",
         "Subtype": "ZOMBIE",
         "Gem Color (cube rarity)": "Common",
@@ -2314,8 +2206,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\n— OR —\n\nIf it is your turn, break all champions.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2329,8 +2219,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nIf it is your turn, each player returns all champions in their discard pile to play without triggering loyalty or tribute abilities.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -2344,8 +2232,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nBreak target champion. The player whose turn it is puts a zombie token into play.\n",
         "Subtype": "ZOMBIE",
         "Gem Color (cube rarity)": "Common",
@@ -2419,8 +2305,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "If it is your turn, put 3 demon tokens into play. Otherwise, put 2 demon tokens into play.\n{1}: Recall\n\nWhen you recall this card → Lose 1 health.",
         "Subtype": "DEMON",
         "Gem Color (cube rarity)": "Rare",
@@ -2434,8 +2318,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 9 damage to target champion.\n\nGain 9 health.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2464,8 +2346,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nPut a champion from any discard pile into play under your control. It gains blitz this turn. Break it at the end of the turn.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2509,8 +2389,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nBreak target champion. The player whose turn it is puts a demon token into play.\n",
         "Subtype": "DEMON",
         "Gem Color (cube rarity)": "Common",
@@ -2569,8 +2447,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 1 damage to target player and to each champion they control. Draw a card.\nRecycle\n— OR —\nIf it is your turn, break all champions.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -2584,8 +2460,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put a zombie token into play.\n{evil} → You may pay 1 health. If you do, recall.",
         "Subtype": "ZOMBIE",
         "Gem Color (cube rarity)": "Common",
@@ -2629,8 +2503,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put three zombie tokens into play.\n\nYour evil champions gain blitz, +1 {offense} and +1 {defense} this turn.\n",
         "Subtype": "ZOMBIE",
         "Gem Color (cube rarity)": "Common",
@@ -2674,8 +2546,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Banish X evil cards from your discard pile.\n\nDeal X+1 damage to target champion.\n\nGain X+1 health.\n",
         "Subtype": "VAMPIRE",
         "Gem Color (cube rarity)": "Common",
@@ -2704,8 +2574,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 3 damage to target champion and all other champions with the same name.\n\nChampions damaged by this card get -3 {offense} this turn.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2719,8 +2587,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put a demon token into play.\n\nRecycle\n",
         "Subtype": "DEMON",
         "Gem Color (cube rarity)": "Rare",
@@ -2734,8 +2600,6 @@
           "Black"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nBreak all champions, then each player puts a zombie token into play for each champion in their discard pile.\n",
         "Subtype": "ZOMBIE",
         "Gem Color (cube rarity)": "Common",
@@ -2809,8 +2673,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Banish target champion.\n\nThe player whose turn it is draws a card.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2824,8 +2686,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put a human token into play.\n\nTarget champion gains unbreakable and +5 {offense} this turn.\n",
         "Subtype": "HUMAN",
         "Gem Color (cube rarity)": "Common",
@@ -2839,8 +2699,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\nChampions cannot attack this turn. (The current attack, if any, is unaffected.)\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2869,8 +2727,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\n— OR —\n\nIf it is your turn, banish all champions.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2899,8 +2755,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\nRemove all of your attacking or blocking champions from battle and prepare them.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2944,8 +2798,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nBanish all non-token champions. If it's an opponent's turn, they draw a card.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -2959,8 +2811,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Gain 10 health.\n{good} → Recall",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3049,8 +2899,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put a human token into play. Your champions get +1 {offense} this turn.\n{1}: Recall",
         "Subtype": "HUMAN",
         "Gem Color (cube rarity)": "Common",
@@ -3064,8 +2912,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nTarget a champion card in your discard pile that was broken this turn. Return it to play.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3079,8 +2925,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nPut six human tokens into play.\nYour human champions gain blitz this turn.\n",
         "Subtype": "HUMAN",
         "Gem Color (cube rarity)": "Rare",
@@ -3139,8 +2983,6 @@
           "White"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Banish target champion. Its controller gains health equal to its offense.\nIf you were the champion's controller, draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3199,8 +3041,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Banish target player's discard pile.\nRecycle\n— OR —\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -3214,8 +3054,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n{1}: Recall\n\nWhen this card leaves your discard pile → Draw a card.",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3259,8 +3097,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nYour champions gain unblockable and +2 {offense} this turn.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -3289,8 +3125,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\nReturn target champion to its owner's hand.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -3334,8 +3168,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Return target attacking champion to its owner's hand. If it was attacking you and was unblocked, its controller draws a card.\n— OR —\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3394,8 +3226,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\n— OR —\n\nIf a champion is attacking alone, banish it.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3454,8 +3284,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Target player discards two cards at the end of the turn.\n{sage} → Recall",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3484,8 +3312,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 5 damage to each attacking champion.\n\nRecycle\n\n(To recycle, you may banish two cards from your discard pile. If you do, draw a card.)\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3499,8 +3325,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nStarting with you, each player chooses a champion they control. Break all other champions.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3574,8 +3398,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nTransform target champion into a wolf token.\n(Put it on the bottom of its owner’s deck. Its controller puts a wolf token into play.)\n\n(This card received errata in November 2015.)\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3589,8 +3411,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Gain control of target champion this turn. Prepare it. It has blitz this turn.\n— OR —\nIf it is your turn, gain control of target champion.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3619,8 +3439,6 @@
           "Blue"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nTransform each champion into a wolf token.\n\n(This card received errata in November 2015.)\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3694,8 +3512,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 12 damage to target champion.\n\nYour dinosaur champions get +2 {offense} and +2 {defense} this turn.\n",
         "Subtype": "DINOSAUR",
         "Gem Color (cube rarity)": "Common",
@@ -3724,8 +3540,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 3 damage to a target.\n— OR —\n{1}: Deal 3 damage to target player and each champion they control.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -3739,8 +3553,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 8 damage to a target.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3754,8 +3566,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 2 damage to each champion and player.\n\n— OR —\n\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3769,8 +3579,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 5 damage to each of up to two targets.\n\nSometimes, lightning strikes twice.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3799,8 +3607,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n\n— OR —\n\nDeal 9 damage to each champion.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3844,8 +3650,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 1 damage to target champion. It gains breakthrough and +4 {offense} this turn.\n{1}: Recall",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3859,8 +3663,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Deal 6 damage divided any way you choose to up to six targets.\n{1}: Recall",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3889,8 +3691,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nTarget champion gains unbreakable and +10 {offense} this turn.\n",
         "Subtype": "GIANT",
         "Gem Color (cube rarity)": "Common",
@@ -3934,8 +3734,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Target champion gains breakthrough, +4 {offense} and +4 {defense} this turn.\n— OR —\n{1}: Draw two cards.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Common",
@@ -3964,8 +3762,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw two cards.\n— OR —\nChoose three targets. Deal 3 damage to the first, 4 damage to the second, and 5 damage to the third.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -4024,8 +3820,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Draw a card.\n\nYou may put a champion from your hand into play.\n",
         "Subtype": "",
         "Gem Color (cube rarity)": "Rare",
@@ -4054,8 +3848,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Target champion gets +2 {offense} +2 {defense} this turn.\n{1}: Recall\nWhen this card leaves your discard pile → Put a wolf token into play.",
         "Subtype": "WOLF",
         "Gem Color (cube rarity)": "Common",
@@ -4069,8 +3861,6 @@
           "Green"
         ],
         "type": "Event",
-        "power": "",
-        "toughness": "",
         "text": "Put four wolf tokens into play.\n\nYour wolf champions gain blitz this turn.\n",
         "Subtype": "WOLF",
         "Gem Color (cube rarity)": "Common",
