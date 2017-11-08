@@ -1218,7 +1218,7 @@
         "type": "Giant Champion",
         "power": 8,
         "toughness": 8,
-        "text": "Small for a giant . I said he was small for a giant .",
+        "text": "",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Johnny Morrow",
         "Set Name": "unknown"
@@ -2530,7 +2530,7 @@
         "type": "Human Champion",
         "power": 2,
         "toughness": 2,
-        "text": "Ambush\n\nWhen this card attacks → Your champions get +2 {offense} this turn.\n\n\"Follow me!",
+        "text": "Ambush\n\nWhen this card attacks → Your champions get +2 {offense} this turn.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "L.Sean",
         "Set Name": "Set 1"
