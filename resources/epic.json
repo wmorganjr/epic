@@ -52,7 +52,7 @@
           "Black"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nIf it is your turn, you may break target champion and your evil champions get +3 {offense} and +3 {defense} this turn."
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, you may break target champion and your evil champions get +3 {offense} and +3 {defense} this turn."
       },
       {
         "name": "Scarred Priestess",
@@ -83,7 +83,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nTarget champion gets +5 {offense} and +5 {defense} this turn. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay wild costs."
+        "text": "Draw two cards.\n— OR —\nTarget champion gets +5 {offense} and +5 {defense} this turn. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay wild costs."
       },
       {
         "name": "Rybas, Canopy Sniper",
@@ -114,7 +114,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nIf it is your turn, banish all champions and then (starting with you) each player may put a champion from their hand into play."
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, banish all champions and then (starting with you) each player may put a champion from their hand into play."
       },
       {
         "name": "Silver Wing Savior",
@@ -134,7 +134,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Target Champion gains airborne, +2 {offense} and +2 {defense} this turn.\n- OR -\n{1} : Draw two cards."
+        "text": "Target Champion gains airborne, +2 {offense} and +2 {defense} this turn.\n— OR —\n{1} : Draw two cards."
       },
       {
         "name": "Silver Wing Guardian",
@@ -205,7 +205,7 @@
           "Black"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nIf it is your turn, target player breaks a champion they control if able. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay evil costs."
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, target player breaks a champion they control if able. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay evil costs."
       },
       {
         "name": "Scarred Cultist",
@@ -225,7 +225,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nDeal 7 damage to each champion. Deal damage to each player equal to the number of their champions broken this way."
+        "text": "Draw two cards.\n— OR —\nDeal 7 damage to each champion. Deal damage to each player equal to the number of their champions broken this way."
       },
       {
         "name": "Keira, Wolf Caller",
@@ -265,7 +265,7 @@
           "White"
         ],
         "type": "Human Event",
-        "text": "Put two human tokens into play. Banish target champion with {defense} less than or equal to the number of humans you have in play.\n- OR -\n{1} : Draw two cards."
+        "text": "Put two human tokens into play. Banish target champion with {defense} less than or equal to the number of humans you have in play.\n— OR —\n{1} : Draw two cards."
       },
       {
         "name": "Helena’s Chosen",
@@ -296,7 +296,7 @@
           "Blue"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nIf it is your turn, return target champion to its owner’s hand. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay sage costs."
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, return target champion to its owner’s hand. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay sage costs."
       },
       {
         "name": "Mystic Researcher",
@@ -422,7 +422,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Gain 10 health\n- OR -\nIf it’s your turn, banish target expended champion. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay for good costs."
+        "text": "Gain 10 health\n— OR —\nIf it’s your turn, banish target expended champion. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay for good costs."
       },
       {
         "name": "Knight of the Dawn",
@@ -462,7 +462,7 @@
           "Black"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nIf it is your turn, break all non-evil champions."
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, break all non-evil champions."
       },
       {
         "name": "Erwin, Architect of War",
@@ -510,7 +510,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Deal 7 damage to each opposing player.\n- OR -\nDraw a card. Deal 7 damage to target champion.",
+        "text": "Deal 7 damage to each opposing player.\n— OR —\nDraw a card. Deal 7 damage to target champion.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Johnny Morrow",
         "Set Name": "Uprising"
@@ -680,7 +680,7 @@
           "Blue"
         ],
         "type": "Event",
-        "text": "Draw 2 cards.\n- OR -\nEach opposing champion gets -5 {offense} this turn. Draw a card.\n- OR -\nEach opposing champion gets -10 {offense} this turn.",
+        "text": "Draw 2 cards.\n— OR —\nEach opposing champion gets -5 {offense} this turn. Draw a card.\n— OR —\nEach opposing champion gets -10 {offense} this turn.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Johnny Morrow",
         "Set Name": "Uprising"
@@ -692,7 +692,7 @@
           "Blue"
         ],
         "type": "Event",
-        "text": "Draw 2 cards.\n- OR -\nReturn each champion to its owner's hand. The player whose turn it is draws a card.",
+        "text": "Draw 2 cards.\n— OR —\nReturn each champion to its owner's hand. The player whose turn it is draws a card.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Jamie Tayag",
         "Set Name": "Uprising"
@@ -1040,7 +1040,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Deal 5 damage to target player. Draw a card.\n- OR -\nDeal 9 damage to each {1} champion.",
+        "text": "Deal 5 damage to target player. Draw a card.\n— OR —\nDeal 9 damage to each {1} champion.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Nichole Balsley",
         "Set Name": "Uprising"
@@ -1080,7 +1080,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Your champions gain breakthrough this turn. Put two +1 {offense} +1 {defense} counters on each of them.\n- OR -\nTarget champion gains breakthrough this turn. Put five +1 {offense} +1 {defense} counters on it. Draw a card.",
+        "text": "Your champions gain breakthrough this turn. Put two +1 {offense} +1 {defense} counters on each of them.\n— OR —\nTarget champion gains breakthrough this turn. Put five +1 {offense} +1 {defense} counters on it. Draw a card.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "Dhennis Balontong",
         "Set Name": "Uprising"
@@ -1432,7 +1432,7 @@
           "White"
         ],
         "type": "Event",
-        "text": "Banish all {0} champions. Draw a card.\n- OR -\nIf it is your turn, banish all {1} champions.",
+        "text": "Banish all {0} champions. Draw a card.\n— OR —\nIf it is your turn, banish all {1} champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Ina Wong",
         "Set Name": "Tyrants"
@@ -1484,7 +1484,7 @@
           "Black"
         ],
         "type": "Demon Tyrant Event",
-        "text": "Draw two cards.\n- OR -\nIf it is your turn, break all non-demon champions.",
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, break all non-demon champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Bramasta Aji",
         "Set Name": "Tyrants"
@@ -1496,7 +1496,7 @@
           "Black"
         ],
         "type": "Zombie Event",
-        "text": "Put four zombie tokens into play.\n- OR -\nIf it is your turn, break all champions.",
+        "text": "Put four zombie tokens into play.\n— OR —\nIf it is your turn, break all champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Johnny Morrow",
         "Set Name": "Tyrants"
@@ -1754,7 +1754,7 @@
           "Black"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nBreak target {1} champion you control. If you do, break up to two target champions.",
+        "text": "Draw two cards.\n— OR —\nBreak target {1} champion you control. If you do, break up to two target champions.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Michael J Williams",
         "Set Name": "Tyrants"
@@ -1820,7 +1820,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "If it is your turn, break target damaged champion.\n- OR -\n{1}: Draw two cards.",
+        "text": "If it is your turn, break target damaged champion.\n— OR —\n{1}: Draw two cards.",
         "Gem Color (cube rarity)": "Rare",
         "Artist Name": "L.Sean",
         "Set Name": "Tyrants"
@@ -1922,7 +1922,7 @@
           "Blue"
         ],
         "type": "Tyrant Event",
-        "text": "Draw two cards.\n- OR -\nIf it is your turn, return up to two target champions to their owner's hands and draw a card.",
+        "text": "Draw two cards.\n— OR —\nIf it is your turn, return up to two target champions to their owner's hands and draw a card.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Dylan Safford",
         "Set Name": "Tyrants"
@@ -1960,7 +1960,7 @@
           "Blue"
         ],
         "type": "Event",
-        "text": "Draw two cards.\n- OR -\nPlay an event from your discard pile without paying its cost, then banish it and this card.",
+        "text": "Draw two cards.\n— OR —\nPlay an event from your discard pile without paying its cost, then banish it and this card.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Bramasta Aji",
         "Set Name": "Tyrants"
@@ -1972,7 +1972,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Deal 5 damage to target champion.\n- OR -\n{1}: Draw two cards.",
+        "text": "Deal 5 damage to target champion.\n— OR —\n{1}: Draw two cards.",
         "Gem Color (cube rarity)": "Common",
         "Artist Name": "Trevor Smith",
         "Set Name": "Tyrants"
