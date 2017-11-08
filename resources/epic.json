@@ -205,7 +205,7 @@
           "Black"
         ],
         "type": "Event",
-        "text": "Draw two cards\n- OR -\nIf it is your turn, target player breaks a champion they control if able. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay evil costs."
+        "text": "Draw two cards.\n- OR -\nIf it is your turn, target player breaks a champion they control if able. If this is the first {1} card you’ve played this turn, gain {1} that may only be used to pay evil costs."
       },
       {
         "name": "Scarred Cultist",
@@ -225,7 +225,7 @@
           "Green"
         ],
         "type": "Event",
-        "text": "Draw two cards\n- OR -\nDeal 7 damage to each champion. Deal damage to each player equal to the number of their champions broken this way."
+        "text": "Draw two cards.\n- OR -\nDeal 7 damage to each champion. Deal damage to each player equal to the number of their champions broken this way."
       },
       {
         "name": "Keira, Wolf Caller",
@@ -276,7 +276,7 @@
         "type": "Human Champion",
         "power": 6,
         "toughness": 5,
-        "text": "Tribute → Draw a card\n\nLoyalty 2 → Blitz.\n\nYour other good champions have +2 {offense}.\n\n{expend} : Put two human tokens into play."
+        "text": "Tribute → Draw a card.\n\nLoyalty 2 → Blitz.\n\nYour other good champions have +2 {offense}.\n\n{expend} : Put two human tokens into play."
       },
       {
         "name": "Alchemist Assassin",
